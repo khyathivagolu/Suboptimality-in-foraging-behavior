@@ -1,0 +1,1582 @@
+﻿<?xml version="1.0" ?>
+<PsychoPy2experiment version="2020.2.10" encoding="utf-8">
+  <Settings>
+    <Param name="Audio latency priority" val="use prefs" valType="str" updates="None"/>
+    <Param name="Audio lib" val="use prefs" valType="str" updates="None"/>
+    <Param name="Completed URL" val="" valType="str" updates="None"/>
+    <Param name="Data file delimiter" val="auto" valType="str" updates="None"/>
+    <Param name="Data filename" val="u'data/%s_%s_%s' % (expInfo['participant'], expName, expInfo['date'])" valType="code" updates="None"/>
+    <Param name="Enable Escape" val="True" valType="bool" updates="None"/>
+    <Param name="Experiment info" val="{'participant':'', 'session':'001'}" valType="code" updates="None"/>
+    <Param name="Force stereo" val="True" valType="bool" updates="None"/>
+    <Param name="Full-screen window" val="True" valType="bool" updates="None"/>
+    <Param name="HTML path" val="" valType="str" updates="None"/>
+    <Param name="Incomplete URL" val="" valType="str" updates="None"/>
+    <Param name="Monitor" val="testMonitor" valType="str" updates="None"/>
+    <Param name="Resources" val="[]" valType="fileList" updates="None"/>
+    <Param name="Save csv file" val="False" valType="bool" updates="None"/>
+    <Param name="Save excel file" val="False" valType="bool" updates="None"/>
+    <Param name="Save log file" val="True" valType="bool" updates="None"/>
+    <Param name="Save psydat file" val="True" valType="bool" updates="None"/>
+    <Param name="Save wide csv file" val="True" valType="bool" updates="None"/>
+    <Param name="Screen" val="1" valType="num" updates="None"/>
+    <Param name="Show info dlg" val="True" valType="bool" updates="None"/>
+    <Param name="Show mouse" val="False" valType="bool" updates="None"/>
+    <Param name="Units" val="height" valType="str" updates="None"/>
+    <Param name="Use version" val="" valType="str" updates="None"/>
+    <Param name="Window size (pixels)" val="(1024, 768)" valType="code" updates="None"/>
+    <Param name="blendMode" val="avg" valType="str" updates="None"/>
+    <Param name="color" val="$[0,0,0]" valType="str" updates="None"/>
+    <Param name="colorSpace" val="rgb" valType="str" updates="None"/>
+    <Param name="expName" val="untitled" valType="str" updates="None"/>
+    <Param name="exportHTML" val="on Sync" valType="str" updates="None"/>
+    <Param name="logging level" val="exp" valType="code" updates="None"/>
+  </Settings>
+  <Routines>
+    <Routine name="trial1">
+      <ImageComponent name="tree1">
+        <Param name="color" val="$[1,1,1]" valType="str" updates="constant"/>
+        <Param name="colorSpace" val="rgb" valType="str" updates="constant"/>
+        <Param name="disabled" val="False" valType="bool" updates="None"/>
+        <Param name="durationEstim" val="" valType="code" updates="None"/>
+        <Param name="flipHoriz" val="False" valType="bool" updates="constant"/>
+        <Param name="flipVert" val="False" valType="bool" updates="constant"/>
+        <Param name="image" val="images/tree.png" valType="str" updates="constant"/>
+        <Param name="interpolate" val="linear" valType="str" updates="constant"/>
+        <Param name="mask" val="None" valType="str" updates="constant"/>
+        <Param name="name" val="tree1" valType="code" updates="None"/>
+        <Param name="opacity" val="1" valType="code" updates="constant"/>
+        <Param name="ori" val="0" valType="code" updates="constant"/>
+        <Param name="pos" val="$(0.5, tree1_p)" valType="code" updates="set every repeat"/>
+        <Param name="saveStartStop" val="True" valType="bool" updates="None"/>
+        <Param name="size" val="(0.2, 0.2)" valType="code" updates="constant"/>
+        <Param name="startEstim" val="" valType="code" updates="None"/>
+        <Param name="startType" val="time (s)" valType="str" updates="None"/>
+        <Param name="startVal" val="0" valType="code" updates="None"/>
+        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
+        <Param name="stopVal" val="0.5" valType="code" updates="constant"/>
+        <Param name="syncScreenRefresh" val="True" valType="bool" updates="None"/>
+        <Param name="texture resolution" val="128" valType="code" updates="constant"/>
+        <Param name="units" val="from exp settings" valType="str" updates="None"/>
+      </ImageComponent>
+      <ImageComponent name="tree2">
+        <Param name="color" val="$[1,1,1]" valType="str" updates="constant"/>
+        <Param name="colorSpace" val="rgb" valType="str" updates="constant"/>
+        <Param name="disabled" val="False" valType="bool" updates="None"/>
+        <Param name="durationEstim" val="" valType="code" updates="None"/>
+        <Param name="flipHoriz" val="False" valType="bool" updates="constant"/>
+        <Param name="flipVert" val="False" valType="bool" updates="constant"/>
+        <Param name="image" val="images/tree.png" valType="str" updates="constant"/>
+        <Param name="interpolate" val="linear" valType="str" updates="constant"/>
+        <Param name="mask" val="None" valType="str" updates="constant"/>
+        <Param name="name" val="tree2" valType="code" updates="None"/>
+        <Param name="opacity" val="1" valType="code" updates="constant"/>
+        <Param name="ori" val="0" valType="code" updates="constant"/>
+        <Param name="pos" val="$(-0.5, tree2_n)" valType="code" updates="set every repeat"/>
+        <Param name="saveStartStop" val="True" valType="bool" updates="None"/>
+        <Param name="size" val="(0.2, 0.2)" valType="code" updates="constant"/>
+        <Param name="startEstim" val="" valType="code" updates="None"/>
+        <Param name="startType" val="time (s)" valType="str" updates="None"/>
+        <Param name="startVal" val="0" valType="code" updates="None"/>
+        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
+        <Param name="stopVal" val="0.5" valType="code" updates="constant"/>
+        <Param name="syncScreenRefresh" val="True" valType="bool" updates="None"/>
+        <Param name="texture resolution" val="128" valType="code" updates="constant"/>
+        <Param name="units" val="from exp settings" valType="str" updates="None"/>
+      </ImageComponent>
+      <ImageComponent name="tree3">
+        <Param name="color" val="$[1,1,1]" valType="str" updates="constant"/>
+        <Param name="colorSpace" val="rgb" valType="str" updates="constant"/>
+        <Param name="disabled" val="False" valType="bool" updates="None"/>
+        <Param name="durationEstim" val="" valType="code" updates="None"/>
+        <Param name="flipHoriz" val="False" valType="bool" updates="constant"/>
+        <Param name="flipVert" val="False" valType="bool" updates="constant"/>
+        <Param name="image" val="images/tree.png" valType="str" updates="constant"/>
+        <Param name="interpolate" val="linear" valType="str" updates="constant"/>
+        <Param name="mask" val="None" valType="str" updates="constant"/>
+        <Param name="name" val="tree3" valType="code" updates="None"/>
+        <Param name="opacity" val="1" valType="code" updates="constant"/>
+        <Param name="ori" val="0" valType="code" updates="constant"/>
+        <Param name="pos" val="$(0.5, tree3_p)" valType="code" updates="set every repeat"/>
+        <Param name="saveStartStop" val="True" valType="bool" updates="None"/>
+        <Param name="size" val="(0.2, 0.2)" valType="code" updates="constant"/>
+        <Param name="startEstim" val="" valType="code" updates="None"/>
+        <Param name="startType" val="time (s)" valType="str" updates="None"/>
+        <Param name="startVal" val="0" valType="code" updates="None"/>
+        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
+        <Param name="stopVal" val="0.5" valType="code" updates="constant"/>
+        <Param name="syncScreenRefresh" val="True" valType="bool" updates="None"/>
+        <Param name="texture resolution" val="128" valType="code" updates="constant"/>
+        <Param name="units" val="from exp settings" valType="str" updates="None"/>
+      </ImageComponent>
+      <ImageComponent name="tree4">
+        <Param name="color" val="$[1,1,1]" valType="str" updates="constant"/>
+        <Param name="colorSpace" val="rgb" valType="str" updates="constant"/>
+        <Param name="disabled" val="False" valType="bool" updates="None"/>
+        <Param name="durationEstim" val="" valType="code" updates="None"/>
+        <Param name="flipHoriz" val="False" valType="bool" updates="constant"/>
+        <Param name="flipVert" val="False" valType="bool" updates="constant"/>
+        <Param name="image" val="images/tree.png" valType="str" updates="constant"/>
+        <Param name="interpolate" val="linear" valType="str" updates="constant"/>
+        <Param name="mask" val="None" valType="str" updates="constant"/>
+        <Param name="name" val="tree4" valType="code" updates="None"/>
+        <Param name="opacity" val="1" valType="code" updates="constant"/>
+        <Param name="ori" val="0" valType="code" updates="constant"/>
+        <Param name="pos" val="$(-0.5, tree4_n)" valType="code" updates="set every repeat"/>
+        <Param name="saveStartStop" val="True" valType="bool" updates="None"/>
+        <Param name="size" val="(0.2, 0.2)" valType="code" updates="constant"/>
+        <Param name="startEstim" val="" valType="code" updates="None"/>
+        <Param name="startType" val="time (s)" valType="str" updates="None"/>
+        <Param name="startVal" val="0" valType="code" updates="None"/>
+        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
+        <Param name="stopVal" val="0.5" valType="code" updates="constant"/>
+        <Param name="syncScreenRefresh" val="True" valType="bool" updates="None"/>
+        <Param name="texture resolution" val="128" valType="code" updates="constant"/>
+        <Param name="units" val="from exp settings" valType="str" updates="None"/>
+      </ImageComponent>
+      <ImageComponent name="tree5">
+        <Param name="color" val="$[1,1,1]" valType="str" updates="constant"/>
+        <Param name="colorSpace" val="rgb" valType="str" updates="constant"/>
+        <Param name="disabled" val="False" valType="bool" updates="None"/>
+        <Param name="durationEstim" val="" valType="code" updates="None"/>
+        <Param name="flipHoriz" val="False" valType="bool" updates="constant"/>
+        <Param name="flipVert" val="False" valType="bool" updates="constant"/>
+        <Param name="image" val="images/tree.png" valType="str" updates="constant"/>
+        <Param name="interpolate" val="linear" valType="str" updates="constant"/>
+        <Param name="mask" val="None" valType="str" updates="constant"/>
+        <Param name="name" val="tree5" valType="code" updates="None"/>
+        <Param name="opacity" val="1" valType="code" updates="constant"/>
+        <Param name="ori" val="0" valType="code" updates="constant"/>
+        <Param name="pos" val="$(0.5, tree5_p)" valType="code" updates="set every repeat"/>
+        <Param name="saveStartStop" val="True" valType="bool" updates="None"/>
+        <Param name="size" val="(0.2, 0.2)" valType="code" updates="constant"/>
+        <Param name="startEstim" val="" valType="code" updates="None"/>
+        <Param name="startType" val="time (s)" valType="str" updates="None"/>
+        <Param name="startVal" val="0" valType="code" updates="None"/>
+        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
+        <Param name="stopVal" val="0.5" valType="code" updates="constant"/>
+        <Param name="syncScreenRefresh" val="True" valType="bool" updates="None"/>
+        <Param name="texture resolution" val="128" valType="code" updates="constant"/>
+        <Param name="units" val="from exp settings" valType="str" updates="None"/>
+      </ImageComponent>
+      <ImageComponent name="tree6">
+        <Param name="color" val="$[1,1,1]" valType="str" updates="constant"/>
+        <Param name="colorSpace" val="rgb" valType="str" updates="constant"/>
+        <Param name="disabled" val="False" valType="bool" updates="None"/>
+        <Param name="durationEstim" val="" valType="code" updates="None"/>
+        <Param name="flipHoriz" val="False" valType="bool" updates="constant"/>
+        <Param name="flipVert" val="False" valType="bool" updates="constant"/>
+        <Param name="image" val="images/tree.png" valType="str" updates="constant"/>
+        <Param name="interpolate" val="linear" valType="str" updates="constant"/>
+        <Param name="mask" val="None" valType="str" updates="constant"/>
+        <Param name="name" val="tree6" valType="code" updates="None"/>
+        <Param name="opacity" val="1" valType="code" updates="constant"/>
+        <Param name="ori" val="0" valType="code" updates="constant"/>
+        <Param name="pos" val="$(-0.5, tree6_n)" valType="code" updates="set every repeat"/>
+        <Param name="saveStartStop" val="True" valType="bool" updates="None"/>
+        <Param name="size" val="(0.2, 0.2)" valType="code" updates="constant"/>
+        <Param name="startEstim" val="" valType="code" updates="None"/>
+        <Param name="startType" val="time (s)" valType="str" updates="None"/>
+        <Param name="startVal" val="0" valType="code" updates="None"/>
+        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
+        <Param name="stopVal" val="0.5" valType="code" updates="constant"/>
+        <Param name="syncScreenRefresh" val="True" valType="bool" updates="None"/>
+        <Param name="texture resolution" val="128" valType="code" updates="constant"/>
+        <Param name="units" val="from exp settings" valType="str" updates="None"/>
+      </ImageComponent>
+      <ImageComponent name="square">
+        <Param name="color" val="$[1,1,1]" valType="str" updates="constant"/>
+        <Param name="colorSpace" val="rgb" valType="str" updates="constant"/>
+        <Param name="disabled" val="False" valType="bool" updates="None"/>
+        <Param name="durationEstim" val="" valType="code" updates="None"/>
+        <Param name="flipHoriz" val="False" valType="bool" updates="constant"/>
+        <Param name="flipVert" val="False" valType="bool" updates="constant"/>
+        <Param name="image" val="images/hollow.png" valType="str" updates="constant"/>
+        <Param name="interpolate" val="linear" valType="str" updates="constant"/>
+        <Param name="mask" val="None" valType="str" updates="constant"/>
+        <Param name="name" val="square" valType="code" updates="None"/>
+        <Param name="opacity" val="1" valType="code" updates="constant"/>
+        <Param name="ori" val="0" valType="code" updates="constant"/>
+        <Param name="pos" val="(0, -0.2)" valType="code" updates="constant"/>
+        <Param name="saveStartStop" val="True" valType="bool" updates="None"/>
+        <Param name="size" val="(0.25, 0.25)" valType="code" updates="constant"/>
+        <Param name="startEstim" val="" valType="code" updates="None"/>
+        <Param name="startType" val="time (s)" valType="str" updates="None"/>
+        <Param name="startVal" val="0.0" valType="code" updates="None"/>
+        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
+        <Param name="stopVal" val="0.5" valType="code" updates="constant"/>
+        <Param name="syncScreenRefresh" val="True" valType="bool" updates="None"/>
+        <Param name="texture resolution" val="128" valType="code" updates="constant"/>
+        <Param name="units" val="from exp settings" valType="str" updates="None"/>
+      </ImageComponent>
+    </Routine>
+    <Routine name="intro">
+      <MouseComponent name="mouse">
+        <Param name="clickable" val="square_2" valType="code" updates="constant"/>
+        <Param name="disabled" val="False" valType="bool" updates="None"/>
+        <Param name="durationEstim" val="" valType="code" updates="None"/>
+        <Param name="forceEndRoutineOnPress" val="valid click" valType="str" updates="constant"/>
+        <Param name="name" val="mouse" valType="code" updates="None"/>
+        <Param name="newClicksOnly" val="True" valType="bool" updates="constant"/>
+        <Param name="saveMouseState" val="final" valType="str" updates="None"/>
+        <Param name="saveParamsClickable" val="name," valType="code" updates="constant"/>
+        <Param name="saveStartStop" val="True" valType="bool" updates="None"/>
+        <Param name="startEstim" val="" valType="code" updates="None"/>
+        <Param name="startType" val="time (s)" valType="str" updates="None"/>
+        <Param name="startVal" val="0.0" valType="code" updates="None"/>
+        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
+        <Param name="stopVal" val="" valType="code" updates="constant"/>
+        <Param name="syncScreenRefresh" val="False" valType="bool" updates="None"/>
+        <Param name="timeRelativeTo" val="mouse onset" valType="str" updates="constant"/>
+      </MouseComponent>
+      <ImageComponent name="square_2">
+        <Param name="color" val="$[1,1,1]" valType="str" updates="constant"/>
+        <Param name="colorSpace" val="rgb" valType="str" updates="constant"/>
+        <Param name="disabled" val="False" valType="bool" updates="None"/>
+        <Param name="durationEstim" val="" valType="code" updates="None"/>
+        <Param name="flipHoriz" val="False" valType="bool" updates="constant"/>
+        <Param name="flipVert" val="False" valType="bool" updates="constant"/>
+        <Param name="image" val="images/hollow.png" valType="str" updates="constant"/>
+        <Param name="interpolate" val="linear" valType="str" updates="constant"/>
+        <Param name="mask" val="None" valType="str" updates="constant"/>
+        <Param name="name" val="square_2" valType="code" updates="None"/>
+        <Param name="opacity" val="1" valType="code" updates="constant"/>
+        <Param name="ori" val="0" valType="code" updates="constant"/>
+        <Param name="pos" val="(0, -0.2)" valType="code" updates="constant"/>
+        <Param name="saveStartStop" val="True" valType="bool" updates="None"/>
+        <Param name="size" val="(0.25, 0.25)" valType="code" updates="constant"/>
+        <Param name="startEstim" val="" valType="code" updates="None"/>
+        <Param name="startType" val="time (s)" valType="str" updates="None"/>
+        <Param name="startVal" val="0.0" valType="code" updates="None"/>
+        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
+        <Param name="stopVal" val="" valType="code" updates="constant"/>
+        <Param name="syncScreenRefresh" val="True" valType="bool" updates="None"/>
+        <Param name="texture resolution" val="128" valType="code" updates="constant"/>
+        <Param name="units" val="from exp settings" valType="str" updates="None"/>
+      </ImageComponent>
+      <ImageComponent name="tree1_2">
+        <Param name="color" val="$[1,1,1]" valType="str" updates="constant"/>
+        <Param name="colorSpace" val="rgb" valType="str" updates="constant"/>
+        <Param name="disabled" val="False" valType="bool" updates="None"/>
+        <Param name="durationEstim" val="" valType="code" updates="None"/>
+        <Param name="flipHoriz" val="False" valType="bool" updates="constant"/>
+        <Param name="flipVert" val="False" valType="bool" updates="constant"/>
+        <Param name="image" val="images/tree.png" valType="str" updates="constant"/>
+        <Param name="interpolate" val="linear" valType="str" updates="constant"/>
+        <Param name="mask" val="None" valType="str" updates="constant"/>
+        <Param name="name" val="tree1_2" valType="code" updates="None"/>
+        <Param name="opacity" val="1" valType="code" updates="constant"/>
+        <Param name="ori" val="0" valType="code" updates="constant"/>
+        <Param name="pos" val="$(0.5, 0.4)" valType="code" updates="set every repeat"/>
+        <Param name="saveStartStop" val="True" valType="bool" updates="None"/>
+        <Param name="size" val="(0.2, 0.2)" valType="code" updates="constant"/>
+        <Param name="startEstim" val="" valType="code" updates="None"/>
+        <Param name="startType" val="time (s)" valType="str" updates="None"/>
+        <Param name="startVal" val="0" valType="code" updates="None"/>
+        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
+        <Param name="stopVal" val="" valType="code" updates="constant"/>
+        <Param name="syncScreenRefresh" val="True" valType="bool" updates="None"/>
+        <Param name="texture resolution" val="128" valType="code" updates="constant"/>
+        <Param name="units" val="from exp settings" valType="str" updates="None"/>
+      </ImageComponent>
+      <ImageComponent name="tree2_2">
+        <Param name="color" val="$[1,1,1]" valType="str" updates="constant"/>
+        <Param name="colorSpace" val="rgb" valType="str" updates="constant"/>
+        <Param name="disabled" val="False" valType="bool" updates="None"/>
+        <Param name="durationEstim" val="" valType="code" updates="None"/>
+        <Param name="flipHoriz" val="False" valType="bool" updates="constant"/>
+        <Param name="flipVert" val="False" valType="bool" updates="constant"/>
+        <Param name="image" val="images/tree.png" valType="str" updates="constant"/>
+        <Param name="interpolate" val="linear" valType="str" updates="constant"/>
+        <Param name="mask" val="None" valType="str" updates="constant"/>
+        <Param name="name" val="tree2_2" valType="code" updates="None"/>
+        <Param name="opacity" val="1" valType="code" updates="constant"/>
+        <Param name="ori" val="0" valType="code" updates="constant"/>
+        <Param name="pos" val="$(-0.5, 0.2)" valType="code" updates="set every repeat"/>
+        <Param name="saveStartStop" val="True" valType="bool" updates="None"/>
+        <Param name="size" val="(0.2, 0.2)" valType="code" updates="constant"/>
+        <Param name="startEstim" val="" valType="code" updates="None"/>
+        <Param name="startType" val="time (s)" valType="str" updates="None"/>
+        <Param name="startVal" val="0" valType="code" updates="None"/>
+        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
+        <Param name="stopVal" val="" valType="code" updates="constant"/>
+        <Param name="syncScreenRefresh" val="True" valType="bool" updates="None"/>
+        <Param name="texture resolution" val="128" valType="code" updates="constant"/>
+        <Param name="units" val="from exp settings" valType="str" updates="None"/>
+      </ImageComponent>
+      <ImageComponent name="tree3_2">
+        <Param name="color" val="$[1,1,1]" valType="str" updates="constant"/>
+        <Param name="colorSpace" val="rgb" valType="str" updates="constant"/>
+        <Param name="disabled" val="False" valType="bool" updates="None"/>
+        <Param name="durationEstim" val="" valType="code" updates="None"/>
+        <Param name="flipHoriz" val="False" valType="bool" updates="constant"/>
+        <Param name="flipVert" val="False" valType="bool" updates="constant"/>
+        <Param name="image" val="images/tree.png" valType="str" updates="constant"/>
+        <Param name="interpolate" val="linear" valType="str" updates="constant"/>
+        <Param name="mask" val="None" valType="str" updates="constant"/>
+        <Param name="name" val="tree3_2" valType="code" updates="None"/>
+        <Param name="opacity" val="1" valType="code" updates="constant"/>
+        <Param name="ori" val="0" valType="code" updates="constant"/>
+        <Param name="pos" val="$(0.5, 0)" valType="code" updates="set every repeat"/>
+        <Param name="saveStartStop" val="True" valType="bool" updates="None"/>
+        <Param name="size" val="(0.2, 0.2)" valType="code" updates="constant"/>
+        <Param name="startEstim" val="" valType="code" updates="None"/>
+        <Param name="startType" val="time (s)" valType="str" updates="None"/>
+        <Param name="startVal" val="0" valType="code" updates="None"/>
+        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
+        <Param name="stopVal" val="" valType="code" updates="constant"/>
+        <Param name="syncScreenRefresh" val="True" valType="bool" updates="None"/>
+        <Param name="texture resolution" val="128" valType="code" updates="constant"/>
+        <Param name="units" val="from exp settings" valType="str" updates="None"/>
+      </ImageComponent>
+      <ImageComponent name="tree4_2">
+        <Param name="color" val="$[1,1,1]" valType="str" updates="constant"/>
+        <Param name="colorSpace" val="rgb" valType="str" updates="constant"/>
+        <Param name="disabled" val="False" valType="bool" updates="None"/>
+        <Param name="durationEstim" val="" valType="code" updates="None"/>
+        <Param name="flipHoriz" val="False" valType="bool" updates="constant"/>
+        <Param name="flipVert" val="False" valType="bool" updates="constant"/>
+        <Param name="image" val="images/tree.png" valType="str" updates="constant"/>
+        <Param name="interpolate" val="linear" valType="str" updates="constant"/>
+        <Param name="mask" val="None" valType="str" updates="constant"/>
+        <Param name="name" val="tree4_2" valType="code" updates="None"/>
+        <Param name="opacity" val="1" valType="code" updates="constant"/>
+        <Param name="ori" val="0" valType="code" updates="constant"/>
+        <Param name="pos" val="$(-0.5, -0.2)" valType="code" updates="set every repeat"/>
+        <Param name="saveStartStop" val="True" valType="bool" updates="None"/>
+        <Param name="size" val="(0.2, 0.2)" valType="code" updates="constant"/>
+        <Param name="startEstim" val="" valType="code" updates="None"/>
+        <Param name="startType" val="time (s)" valType="str" updates="None"/>
+        <Param name="startVal" val="0" valType="code" updates="None"/>
+        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
+        <Param name="stopVal" val="" valType="code" updates="constant"/>
+        <Param name="syncScreenRefresh" val="True" valType="bool" updates="None"/>
+        <Param name="texture resolution" val="128" valType="code" updates="constant"/>
+        <Param name="units" val="from exp settings" valType="str" updates="None"/>
+      </ImageComponent>
+      <ImageComponent name="tree5_2">
+        <Param name="color" val="$[1,1,1]" valType="str" updates="constant"/>
+        <Param name="colorSpace" val="rgb" valType="str" updates="constant"/>
+        <Param name="disabled" val="False" valType="bool" updates="None"/>
+        <Param name="durationEstim" val="" valType="code" updates="None"/>
+        <Param name="flipHoriz" val="False" valType="bool" updates="constant"/>
+        <Param name="flipVert" val="False" valType="bool" updates="constant"/>
+        <Param name="image" val="images/tree.png" valType="str" updates="constant"/>
+        <Param name="interpolate" val="linear" valType="str" updates="constant"/>
+        <Param name="mask" val="None" valType="str" updates="constant"/>
+        <Param name="name" val="tree5_2" valType="code" updates="None"/>
+        <Param name="opacity" val="1" valType="code" updates="constant"/>
+        <Param name="ori" val="0" valType="code" updates="constant"/>
+        <Param name="pos" val="$(0.5, -0.4)" valType="code" updates="set every repeat"/>
+        <Param name="saveStartStop" val="True" valType="bool" updates="None"/>
+        <Param name="size" val="(0.2, 0.2)" valType="code" updates="constant"/>
+        <Param name="startEstim" val="" valType="code" updates="None"/>
+        <Param name="startType" val="time (s)" valType="str" updates="None"/>
+        <Param name="startVal" val="0" valType="code" updates="None"/>
+        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
+        <Param name="stopVal" val="0" valType="code" updates="constant"/>
+        <Param name="syncScreenRefresh" val="True" valType="bool" updates="None"/>
+        <Param name="texture resolution" val="128" valType="code" updates="constant"/>
+        <Param name="units" val="from exp settings" valType="str" updates="None"/>
+      </ImageComponent>
+      <ImageComponent name="tree6_2">
+        <Param name="color" val="$[1,1,1]" valType="str" updates="constant"/>
+        <Param name="colorSpace" val="rgb" valType="str" updates="constant"/>
+        <Param name="disabled" val="False" valType="bool" updates="None"/>
+        <Param name="durationEstim" val="" valType="code" updates="None"/>
+        <Param name="flipHoriz" val="False" valType="bool" updates="constant"/>
+        <Param name="flipVert" val="False" valType="bool" updates="constant"/>
+        <Param name="image" val="images/tree.png" valType="str" updates="constant"/>
+        <Param name="interpolate" val="linear" valType="str" updates="constant"/>
+        <Param name="mask" val="None" valType="str" updates="constant"/>
+        <Param name="name" val="tree6_2" valType="code" updates="None"/>
+        <Param name="opacity" val="1" valType="code" updates="constant"/>
+        <Param name="ori" val="0" valType="code" updates="constant"/>
+        <Param name="pos" val="$(-0.5, -0.6)" valType="code" updates="set every repeat"/>
+        <Param name="saveStartStop" val="True" valType="bool" updates="None"/>
+        <Param name="size" val="(0.2, 0.2)" valType="code" updates="constant"/>
+        <Param name="startEstim" val="" valType="code" updates="None"/>
+        <Param name="startType" val="time (s)" valType="str" updates="None"/>
+        <Param name="startVal" val="0" valType="code" updates="None"/>
+        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
+        <Param name="stopVal" val="0" valType="code" updates="constant"/>
+        <Param name="syncScreenRefresh" val="True" valType="bool" updates="None"/>
+        <Param name="texture resolution" val="128" valType="code" updates="constant"/>
+        <Param name="units" val="from exp settings" valType="str" updates="None"/>
+      </ImageComponent>
+    </Routine>
+    <Routine name="rewardframe">
+      <ImageComponent name="tree1_3">
+        <Param name="color" val="$[1,1,1]" valType="str" updates="constant"/>
+        <Param name="colorSpace" val="rgb" valType="str" updates="constant"/>
+        <Param name="disabled" val="False" valType="bool" updates="None"/>
+        <Param name="durationEstim" val="" valType="code" updates="None"/>
+        <Param name="flipHoriz" val="False" valType="bool" updates="constant"/>
+        <Param name="flipVert" val="False" valType="bool" updates="constant"/>
+        <Param name="image" val="images/tree.png" valType="str" updates="constant"/>
+        <Param name="interpolate" val="linear" valType="str" updates="constant"/>
+        <Param name="mask" val="None" valType="str" updates="constant"/>
+        <Param name="name" val="tree1_3" valType="code" updates="None"/>
+        <Param name="opacity" val="1" valType="code" updates="constant"/>
+        <Param name="ori" val="0" valType="code" updates="constant"/>
+        <Param name="pos" val="$(0.5, 0.2)" valType="code" updates="set every repeat"/>
+        <Param name="saveStartStop" val="True" valType="bool" updates="None"/>
+        <Param name="size" val="(0.2, 0.2)" valType="code" updates="constant"/>
+        <Param name="startEstim" val="" valType="code" updates="None"/>
+        <Param name="startType" val="time (s)" valType="str" updates="None"/>
+        <Param name="startVal" val="0" valType="code" updates="None"/>
+        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
+        <Param name="stopVal" val="" valType="code" updates="constant"/>
+        <Param name="syncScreenRefresh" val="True" valType="bool" updates="None"/>
+        <Param name="texture resolution" val="128" valType="code" updates="constant"/>
+        <Param name="units" val="from exp settings" valType="str" updates="None"/>
+      </ImageComponent>
+      <ImageComponent name="tree2_3">
+        <Param name="color" val="$[1,1,1]" valType="str" updates="constant"/>
+        <Param name="colorSpace" val="rgb" valType="str" updates="constant"/>
+        <Param name="disabled" val="False" valType="bool" updates="None"/>
+        <Param name="durationEstim" val="" valType="code" updates="None"/>
+        <Param name="flipHoriz" val="False" valType="bool" updates="constant"/>
+        <Param name="flipVert" val="False" valType="bool" updates="constant"/>
+        <Param name="image" val="images/tree.png" valType="str" updates="constant"/>
+        <Param name="interpolate" val="linear" valType="str" updates="constant"/>
+        <Param name="mask" val="None" valType="str" updates="constant"/>
+        <Param name="name" val="tree2_3" valType="code" updates="None"/>
+        <Param name="opacity" val="1" valType="code" updates="constant"/>
+        <Param name="ori" val="0" valType="code" updates="constant"/>
+        <Param name="pos" val="$(-0.5, 0)" valType="code" updates="set every repeat"/>
+        <Param name="saveStartStop" val="True" valType="bool" updates="None"/>
+        <Param name="size" val="(0.2, 0.2)" valType="code" updates="constant"/>
+        <Param name="startEstim" val="" valType="code" updates="None"/>
+        <Param name="startType" val="time (s)" valType="str" updates="None"/>
+        <Param name="startVal" val="0" valType="code" updates="None"/>
+        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
+        <Param name="stopVal" val="" valType="code" updates="constant"/>
+        <Param name="syncScreenRefresh" val="True" valType="bool" updates="None"/>
+        <Param name="texture resolution" val="128" valType="code" updates="constant"/>
+        <Param name="units" val="from exp settings" valType="str" updates="None"/>
+      </ImageComponent>
+      <ImageComponent name="tree3_3">
+        <Param name="color" val="$[1,1,1]" valType="str" updates="constant"/>
+        <Param name="colorSpace" val="rgb" valType="str" updates="constant"/>
+        <Param name="disabled" val="False" valType="bool" updates="None"/>
+        <Param name="durationEstim" val="" valType="code" updates="None"/>
+        <Param name="flipHoriz" val="False" valType="bool" updates="constant"/>
+        <Param name="flipVert" val="False" valType="bool" updates="constant"/>
+        <Param name="image" val="images/tree.png" valType="str" updates="constant"/>
+        <Param name="interpolate" val="linear" valType="str" updates="constant"/>
+        <Param name="mask" val="None" valType="str" updates="constant"/>
+        <Param name="name" val="tree3_3" valType="code" updates="None"/>
+        <Param name="opacity" val="1" valType="code" updates="constant"/>
+        <Param name="ori" val="0" valType="code" updates="constant"/>
+        <Param name="pos" val="$(0.5, -0.2)" valType="code" updates="set every repeat"/>
+        <Param name="saveStartStop" val="True" valType="bool" updates="None"/>
+        <Param name="size" val="(0.2, 0.2)" valType="code" updates="constant"/>
+        <Param name="startEstim" val="" valType="code" updates="None"/>
+        <Param name="startType" val="time (s)" valType="str" updates="None"/>
+        <Param name="startVal" val="0" valType="code" updates="None"/>
+        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
+        <Param name="stopVal" val="" valType="code" updates="constant"/>
+        <Param name="syncScreenRefresh" val="True" valType="bool" updates="None"/>
+        <Param name="texture resolution" val="128" valType="code" updates="constant"/>
+        <Param name="units" val="from exp settings" valType="str" updates="None"/>
+      </ImageComponent>
+      <ImageComponent name="tree4_3">
+        <Param name="color" val="$[1,1,1]" valType="str" updates="constant"/>
+        <Param name="colorSpace" val="rgb" valType="str" updates="constant"/>
+        <Param name="disabled" val="False" valType="bool" updates="None"/>
+        <Param name="durationEstim" val="" valType="code" updates="None"/>
+        <Param name="flipHoriz" val="False" valType="bool" updates="constant"/>
+        <Param name="flipVert" val="False" valType="bool" updates="constant"/>
+        <Param name="image" val="images/tree.png" valType="str" updates="constant"/>
+        <Param name="interpolate" val="linear" valType="str" updates="constant"/>
+        <Param name="mask" val="None" valType="str" updates="constant"/>
+        <Param name="name" val="tree4_3" valType="code" updates="None"/>
+        <Param name="opacity" val="1" valType="code" updates="constant"/>
+        <Param name="ori" val="0" valType="code" updates="constant"/>
+        <Param name="pos" val="$(-0.5, -0.4)" valType="code" updates="set every repeat"/>
+        <Param name="saveStartStop" val="True" valType="bool" updates="None"/>
+        <Param name="size" val="(0.2, 0.2)" valType="code" updates="constant"/>
+        <Param name="startEstim" val="" valType="code" updates="None"/>
+        <Param name="startType" val="time (s)" valType="str" updates="None"/>
+        <Param name="startVal" val="0" valType="code" updates="None"/>
+        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
+        <Param name="stopVal" val="" valType="code" updates="constant"/>
+        <Param name="syncScreenRefresh" val="True" valType="bool" updates="None"/>
+        <Param name="texture resolution" val="128" valType="code" updates="constant"/>
+        <Param name="units" val="from exp settings" valType="str" updates="None"/>
+      </ImageComponent>
+      <ImageComponent name="tree5_3">
+        <Param name="color" val="$[1,1,1]" valType="str" updates="constant"/>
+        <Param name="colorSpace" val="rgb" valType="str" updates="constant"/>
+        <Param name="disabled" val="False" valType="bool" updates="None"/>
+        <Param name="durationEstim" val="" valType="code" updates="None"/>
+        <Param name="flipHoriz" val="False" valType="bool" updates="constant"/>
+        <Param name="flipVert" val="False" valType="bool" updates="constant"/>
+        <Param name="image" val="images/tree.png" valType="str" updates="constant"/>
+        <Param name="interpolate" val="linear" valType="str" updates="constant"/>
+        <Param name="mask" val="None" valType="str" updates="constant"/>
+        <Param name="name" val="tree5_3" valType="code" updates="None"/>
+        <Param name="opacity" val="1" valType="code" updates="constant"/>
+        <Param name="ori" val="0" valType="code" updates="constant"/>
+        <Param name="pos" val="$(0.5, -0.6)" valType="code" updates="set every repeat"/>
+        <Param name="saveStartStop" val="True" valType="bool" updates="None"/>
+        <Param name="size" val="(0.2, 0.2)" valType="code" updates="constant"/>
+        <Param name="startEstim" val="" valType="code" updates="None"/>
+        <Param name="startType" val="time (s)" valType="str" updates="None"/>
+        <Param name="startVal" val="0" valType="code" updates="None"/>
+        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
+        <Param name="stopVal" val="" valType="code" updates="constant"/>
+        <Param name="syncScreenRefresh" val="True" valType="bool" updates="None"/>
+        <Param name="texture resolution" val="128" valType="code" updates="constant"/>
+        <Param name="units" val="from exp settings" valType="str" updates="None"/>
+      </ImageComponent>
+      <ImageComponent name="tree6_3">
+        <Param name="color" val="$[1,1,1]" valType="str" updates="constant"/>
+        <Param name="colorSpace" val="rgb" valType="str" updates="constant"/>
+        <Param name="disabled" val="False" valType="bool" updates="None"/>
+        <Param name="durationEstim" val="" valType="code" updates="None"/>
+        <Param name="flipHoriz" val="False" valType="bool" updates="constant"/>
+        <Param name="flipVert" val="False" valType="bool" updates="constant"/>
+        <Param name="image" val="images/tree.png" valType="str" updates="constant"/>
+        <Param name="interpolate" val="linear" valType="str" updates="constant"/>
+        <Param name="mask" val="None" valType="str" updates="constant"/>
+        <Param name="name" val="tree6_3" valType="code" updates="None"/>
+        <Param name="opacity" val="1" valType="code" updates="constant"/>
+        <Param name="ori" val="0" valType="code" updates="constant"/>
+        <Param name="pos" val="$(-0.5, 0.4)" valType="code" updates="set every repeat"/>
+        <Param name="saveStartStop" val="True" valType="bool" updates="None"/>
+        <Param name="size" val="(0.2, 0.2)" valType="code" updates="constant"/>
+        <Param name="startEstim" val="" valType="code" updates="None"/>
+        <Param name="startType" val="time (s)" valType="str" updates="None"/>
+        <Param name="startVal" val="0" valType="code" updates="None"/>
+        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
+        <Param name="stopVal" val="" valType="code" updates="constant"/>
+        <Param name="syncScreenRefresh" val="True" valType="bool" updates="None"/>
+        <Param name="texture resolution" val="128" valType="code" updates="constant"/>
+        <Param name="units" val="from exp settings" valType="str" updates="None"/>
+      </ImageComponent>
+      <ImageComponent name="square_3">
+        <Param name="color" val="$[1,1,1]" valType="str" updates="constant"/>
+        <Param name="colorSpace" val="rgb" valType="str" updates="constant"/>
+        <Param name="disabled" val="False" valType="bool" updates="None"/>
+        <Param name="durationEstim" val="" valType="code" updates="None"/>
+        <Param name="flipHoriz" val="False" valType="bool" updates="constant"/>
+        <Param name="flipVert" val="False" valType="bool" updates="constant"/>
+        <Param name="image" val="images/hollow.png" valType="str" updates="constant"/>
+        <Param name="interpolate" val="linear" valType="str" updates="constant"/>
+        <Param name="mask" val="None" valType="str" updates="constant"/>
+        <Param name="name" val="square_3" valType="code" updates="None"/>
+        <Param name="opacity" val="1" valType="code" updates="constant"/>
+        <Param name="ori" val="0" valType="code" updates="constant"/>
+        <Param name="pos" val="(0, -0.2)" valType="code" updates="constant"/>
+        <Param name="saveStartStop" val="True" valType="bool" updates="None"/>
+        <Param name="size" val="(0.25, 0.25)" valType="code" updates="constant"/>
+        <Param name="startEstim" val="" valType="code" updates="None"/>
+        <Param name="startType" val="time (s)" valType="str" updates="None"/>
+        <Param name="startVal" val="0.0" valType="code" updates="None"/>
+        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
+        <Param name="stopVal" val="" valType="code" updates="constant"/>
+        <Param name="syncScreenRefresh" val="True" valType="bool" updates="None"/>
+        <Param name="texture resolution" val="128" valType="code" updates="constant"/>
+        <Param name="units" val="from exp settings" valType="str" updates="None"/>
+      </ImageComponent>
+      <TextComponent name="reward">
+        <Param name="color" val="green" valType="str" updates="constant"/>
+        <Param name="colorSpace" val="rgb" valType="str" updates="constant"/>
+        <Param name="disabled" val="False" valType="bool" updates="None"/>
+        <Param name="durationEstim" val="" valType="code" updates="None"/>
+        <Param name="flip" val="" valType="str" updates="constant"/>
+        <Param name="font" val="Arial" valType="str" updates="constant"/>
+        <Param name="languageStyle" val="LTR" valType="str" updates="None"/>
+        <Param name="letterHeight" val="0.05" valType="code" updates="constant"/>
+        <Param name="name" val="reward" valType="code" updates="None"/>
+        <Param name="opacity" val="1" valType="code" updates="constant"/>
+        <Param name="ori" val="0" valType="code" updates="constant"/>
+        <Param name="pos" val="(-0.6, -0.08)" valType="code" updates="constant"/>
+        <Param name="saveStartStop" val="True" valType="bool" updates="None"/>
+        <Param name="startEstim" val="" valType="code" updates="None"/>
+        <Param name="startType" val="time (s)" valType="str" updates="None"/>
+        <Param name="startVal" val="0.0" valType="code" updates="None"/>
+        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
+        <Param name="stopVal" val="" valType="code" updates="constant"/>
+        <Param name="syncScreenRefresh" val="True" valType="bool" updates="None"/>
+        <Param name="text" val="$rewardval" valType="extendedStr" updates="set every repeat"/>
+        <Param name="units" val="from exp settings" valType="str" updates="None"/>
+        <Param name="wrapWidth" val="" valType="code" updates="constant"/>
+      </TextComponent>
+      <MouseComponent name="resp_2">
+        <Param name="clickable" val="tree4_3" valType="code" updates="constant"/>
+        <Param name="disabled" val="False" valType="bool" updates="None"/>
+        <Param name="durationEstim" val="" valType="code" updates="None"/>
+        <Param name="forceEndRoutineOnPress" val="valid click" valType="str" updates="constant"/>
+        <Param name="name" val="resp_2" valType="code" updates="None"/>
+        <Param name="newClicksOnly" val="True" valType="bool" updates="constant"/>
+        <Param name="saveMouseState" val="final" valType="str" updates="None"/>
+        <Param name="saveParamsClickable" val="name," valType="code" updates="constant"/>
+        <Param name="saveStartStop" val="True" valType="bool" updates="None"/>
+        <Param name="startEstim" val="" valType="code" updates="None"/>
+        <Param name="startType" val="time (s)" valType="str" updates="None"/>
+        <Param name="startVal" val="0.0" valType="code" updates="None"/>
+        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
+        <Param name="stopVal" val="" valType="code" updates="constant"/>
+        <Param name="syncScreenRefresh" val="False" valType="bool" updates="None"/>
+        <Param name="timeRelativeTo" val="mouse onset" valType="str" updates="constant"/>
+      </MouseComponent>
+    </Routine>
+    <Routine name="rewardframe1">
+      <ImageComponent name="tree1_4">
+        <Param name="color" val="$[1,1,1]" valType="str" updates="constant"/>
+        <Param name="colorSpace" val="rgb" valType="str" updates="constant"/>
+        <Param name="disabled" val="False" valType="bool" updates="None"/>
+        <Param name="durationEstim" val="" valType="code" updates="None"/>
+        <Param name="flipHoriz" val="False" valType="bool" updates="constant"/>
+        <Param name="flipVert" val="False" valType="bool" updates="constant"/>
+        <Param name="image" val="images/tree.png" valType="str" updates="constant"/>
+        <Param name="interpolate" val="linear" valType="str" updates="constant"/>
+        <Param name="mask" val="None" valType="str" updates="constant"/>
+        <Param name="name" val="tree1_4" valType="code" updates="None"/>
+        <Param name="opacity" val="1" valType="code" updates="constant"/>
+        <Param name="ori" val="0" valType="code" updates="constant"/>
+        <Param name="pos" val="$(0.5, 0.4)" valType="code" updates="set every repeat"/>
+        <Param name="saveStartStop" val="True" valType="bool" updates="None"/>
+        <Param name="size" val="(0.2, 0.2)" valType="code" updates="constant"/>
+        <Param name="startEstim" val="" valType="code" updates="None"/>
+        <Param name="startType" val="time (s)" valType="str" updates="None"/>
+        <Param name="startVal" val="0" valType="code" updates="None"/>
+        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
+        <Param name="stopVal" val="" valType="code" updates="constant"/>
+        <Param name="syncScreenRefresh" val="True" valType="bool" updates="None"/>
+        <Param name="texture resolution" val="128" valType="code" updates="constant"/>
+        <Param name="units" val="from exp settings" valType="str" updates="None"/>
+      </ImageComponent>
+      <ImageComponent name="tree2_4">
+        <Param name="color" val="$[1,1,1]" valType="str" updates="constant"/>
+        <Param name="colorSpace" val="rgb" valType="str" updates="constant"/>
+        <Param name="disabled" val="False" valType="bool" updates="None"/>
+        <Param name="durationEstim" val="" valType="code" updates="None"/>
+        <Param name="flipHoriz" val="False" valType="bool" updates="constant"/>
+        <Param name="flipVert" val="False" valType="bool" updates="constant"/>
+        <Param name="image" val="images/tree.png" valType="str" updates="constant"/>
+        <Param name="interpolate" val="linear" valType="str" updates="constant"/>
+        <Param name="mask" val="None" valType="str" updates="constant"/>
+        <Param name="name" val="tree2_4" valType="code" updates="None"/>
+        <Param name="opacity" val="1" valType="code" updates="constant"/>
+        <Param name="ori" val="0" valType="code" updates="constant"/>
+        <Param name="pos" val="$(-0.5, 0.2)" valType="code" updates="set every repeat"/>
+        <Param name="saveStartStop" val="True" valType="bool" updates="None"/>
+        <Param name="size" val="(0.2, 0.2)" valType="code" updates="constant"/>
+        <Param name="startEstim" val="" valType="code" updates="None"/>
+        <Param name="startType" val="time (s)" valType="str" updates="None"/>
+        <Param name="startVal" val="0" valType="code" updates="None"/>
+        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
+        <Param name="stopVal" val="" valType="code" updates="constant"/>
+        <Param name="syncScreenRefresh" val="True" valType="bool" updates="None"/>
+        <Param name="texture resolution" val="128" valType="code" updates="constant"/>
+        <Param name="units" val="from exp settings" valType="str" updates="None"/>
+      </ImageComponent>
+      <ImageComponent name="tree3_4">
+        <Param name="color" val="$[1,1,1]" valType="str" updates="constant"/>
+        <Param name="colorSpace" val="rgb" valType="str" updates="constant"/>
+        <Param name="disabled" val="False" valType="bool" updates="None"/>
+        <Param name="durationEstim" val="" valType="code" updates="None"/>
+        <Param name="flipHoriz" val="False" valType="bool" updates="constant"/>
+        <Param name="flipVert" val="False" valType="bool" updates="constant"/>
+        <Param name="image" val="images/tree.png" valType="str" updates="constant"/>
+        <Param name="interpolate" val="linear" valType="str" updates="constant"/>
+        <Param name="mask" val="None" valType="str" updates="constant"/>
+        <Param name="name" val="tree3_4" valType="code" updates="None"/>
+        <Param name="opacity" val="1" valType="code" updates="constant"/>
+        <Param name="ori" val="0" valType="code" updates="constant"/>
+        <Param name="pos" val="$(0.5, 0)" valType="code" updates="set every repeat"/>
+        <Param name="saveStartStop" val="True" valType="bool" updates="None"/>
+        <Param name="size" val="(0.2, 0.2)" valType="code" updates="constant"/>
+        <Param name="startEstim" val="" valType="code" updates="None"/>
+        <Param name="startType" val="time (s)" valType="str" updates="None"/>
+        <Param name="startVal" val="0" valType="code" updates="None"/>
+        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
+        <Param name="stopVal" val="" valType="code" updates="constant"/>
+        <Param name="syncScreenRefresh" val="True" valType="bool" updates="None"/>
+        <Param name="texture resolution" val="128" valType="code" updates="constant"/>
+        <Param name="units" val="from exp settings" valType="str" updates="None"/>
+      </ImageComponent>
+      <ImageComponent name="tree4_4">
+        <Param name="color" val="$[1,1,1]" valType="str" updates="constant"/>
+        <Param name="colorSpace" val="rgb" valType="str" updates="constant"/>
+        <Param name="disabled" val="False" valType="bool" updates="None"/>
+        <Param name="durationEstim" val="" valType="code" updates="None"/>
+        <Param name="flipHoriz" val="False" valType="bool" updates="constant"/>
+        <Param name="flipVert" val="False" valType="bool" updates="constant"/>
+        <Param name="image" val="images/tree.png" valType="str" updates="constant"/>
+        <Param name="interpolate" val="linear" valType="str" updates="constant"/>
+        <Param name="mask" val="None" valType="str" updates="constant"/>
+        <Param name="name" val="tree4_4" valType="code" updates="None"/>
+        <Param name="opacity" val="1" valType="code" updates="constant"/>
+        <Param name="ori" val="0" valType="code" updates="constant"/>
+        <Param name="pos" val="$(-0.5, -0.2)" valType="code" updates="set every repeat"/>
+        <Param name="saveStartStop" val="True" valType="bool" updates="None"/>
+        <Param name="size" val="(0.2, 0.2)" valType="code" updates="constant"/>
+        <Param name="startEstim" val="" valType="code" updates="None"/>
+        <Param name="startType" val="time (s)" valType="str" updates="None"/>
+        <Param name="startVal" val="0" valType="code" updates="None"/>
+        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
+        <Param name="stopVal" val="" valType="code" updates="constant"/>
+        <Param name="syncScreenRefresh" val="True" valType="bool" updates="None"/>
+        <Param name="texture resolution" val="128" valType="code" updates="constant"/>
+        <Param name="units" val="from exp settings" valType="str" updates="None"/>
+      </ImageComponent>
+      <ImageComponent name="tree5_4">
+        <Param name="color" val="$[1,1,1]" valType="str" updates="constant"/>
+        <Param name="colorSpace" val="rgb" valType="str" updates="constant"/>
+        <Param name="disabled" val="False" valType="bool" updates="None"/>
+        <Param name="durationEstim" val="" valType="code" updates="None"/>
+        <Param name="flipHoriz" val="False" valType="bool" updates="constant"/>
+        <Param name="flipVert" val="False" valType="bool" updates="constant"/>
+        <Param name="image" val="images/tree.png" valType="str" updates="constant"/>
+        <Param name="interpolate" val="linear" valType="str" updates="constant"/>
+        <Param name="mask" val="None" valType="str" updates="constant"/>
+        <Param name="name" val="tree5_4" valType="code" updates="None"/>
+        <Param name="opacity" val="1" valType="code" updates="constant"/>
+        <Param name="ori" val="0" valType="code" updates="constant"/>
+        <Param name="pos" val="$(0.5, -0.4)" valType="code" updates="set every repeat"/>
+        <Param name="saveStartStop" val="True" valType="bool" updates="None"/>
+        <Param name="size" val="(0.2, 0.2)" valType="code" updates="constant"/>
+        <Param name="startEstim" val="" valType="code" updates="None"/>
+        <Param name="startType" val="time (s)" valType="str" updates="None"/>
+        <Param name="startVal" val="0" valType="code" updates="None"/>
+        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
+        <Param name="stopVal" val="0" valType="code" updates="constant"/>
+        <Param name="syncScreenRefresh" val="True" valType="bool" updates="None"/>
+        <Param name="texture resolution" val="128" valType="code" updates="constant"/>
+        <Param name="units" val="from exp settings" valType="str" updates="None"/>
+      </ImageComponent>
+      <ImageComponent name="tree6_4">
+        <Param name="color" val="$[1,1,1]" valType="str" updates="constant"/>
+        <Param name="colorSpace" val="rgb" valType="str" updates="constant"/>
+        <Param name="disabled" val="False" valType="bool" updates="None"/>
+        <Param name="durationEstim" val="" valType="code" updates="None"/>
+        <Param name="flipHoriz" val="False" valType="bool" updates="constant"/>
+        <Param name="flipVert" val="False" valType="bool" updates="constant"/>
+        <Param name="image" val="images/tree.png" valType="str" updates="constant"/>
+        <Param name="interpolate" val="linear" valType="str" updates="constant"/>
+        <Param name="mask" val="None" valType="str" updates="constant"/>
+        <Param name="name" val="tree6_4" valType="code" updates="None"/>
+        <Param name="opacity" val="1" valType="code" updates="constant"/>
+        <Param name="ori" val="0" valType="code" updates="constant"/>
+        <Param name="pos" val="$(-0.5, -0.6)" valType="code" updates="set every repeat"/>
+        <Param name="saveStartStop" val="True" valType="bool" updates="None"/>
+        <Param name="size" val="(0.2, 0.2)" valType="code" updates="constant"/>
+        <Param name="startEstim" val="" valType="code" updates="None"/>
+        <Param name="startType" val="time (s)" valType="str" updates="None"/>
+        <Param name="startVal" val="0" valType="code" updates="None"/>
+        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
+        <Param name="stopVal" val="0" valType="code" updates="constant"/>
+        <Param name="syncScreenRefresh" val="True" valType="bool" updates="None"/>
+        <Param name="texture resolution" val="128" valType="code" updates="constant"/>
+        <Param name="units" val="from exp settings" valType="str" updates="None"/>
+      </ImageComponent>
+      <ImageComponent name="square_4">
+        <Param name="color" val="$[1,1,1]" valType="str" updates="constant"/>
+        <Param name="colorSpace" val="rgb" valType="str" updates="constant"/>
+        <Param name="disabled" val="False" valType="bool" updates="None"/>
+        <Param name="durationEstim" val="" valType="code" updates="None"/>
+        <Param name="flipHoriz" val="False" valType="bool" updates="constant"/>
+        <Param name="flipVert" val="False" valType="bool" updates="constant"/>
+        <Param name="image" val="images/hollow.png" valType="str" updates="constant"/>
+        <Param name="interpolate" val="linear" valType="str" updates="constant"/>
+        <Param name="mask" val="None" valType="str" updates="constant"/>
+        <Param name="name" val="square_4" valType="code" updates="None"/>
+        <Param name="opacity" val="1" valType="code" updates="constant"/>
+        <Param name="ori" val="0" valType="code" updates="constant"/>
+        <Param name="pos" val="(0, -0.2)" valType="code" updates="constant"/>
+        <Param name="saveStartStop" val="True" valType="bool" updates="None"/>
+        <Param name="size" val="(0.25, 0.25)" valType="code" updates="constant"/>
+        <Param name="startEstim" val="" valType="code" updates="None"/>
+        <Param name="startType" val="time (s)" valType="str" updates="None"/>
+        <Param name="startVal" val="0.0" valType="code" updates="None"/>
+        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
+        <Param name="stopVal" val="" valType="code" updates="constant"/>
+        <Param name="syncScreenRefresh" val="True" valType="bool" updates="None"/>
+        <Param name="texture resolution" val="128" valType="code" updates="constant"/>
+        <Param name="units" val="from exp settings" valType="str" updates="None"/>
+      </ImageComponent>
+      <TextComponent name="reward_2">
+        <Param name="color" val="green" valType="str" updates="constant"/>
+        <Param name="colorSpace" val="rgb" valType="str" updates="constant"/>
+        <Param name="disabled" val="False" valType="bool" updates="None"/>
+        <Param name="durationEstim" val="" valType="code" updates="None"/>
+        <Param name="flip" val="" valType="str" updates="constant"/>
+        <Param name="font" val="Arial" valType="str" updates="constant"/>
+        <Param name="languageStyle" val="LTR" valType="str" updates="None"/>
+        <Param name="letterHeight" val="0.05" valType="code" updates="constant"/>
+        <Param name="name" val="reward_2" valType="code" updates="None"/>
+        <Param name="opacity" val="1" valType="code" updates="constant"/>
+        <Param name="ori" val="0" valType="code" updates="constant"/>
+        <Param name="pos" val="(-0.6, -0.08)" valType="code" updates="constant"/>
+        <Param name="saveStartStop" val="True" valType="bool" updates="None"/>
+        <Param name="startEstim" val="" valType="code" updates="None"/>
+        <Param name="startType" val="time (s)" valType="str" updates="None"/>
+        <Param name="startVal" val="0.0" valType="code" updates="None"/>
+        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
+        <Param name="stopVal" val="" valType="code" updates="constant"/>
+        <Param name="syncScreenRefresh" val="True" valType="bool" updates="None"/>
+        <Param name="text" val="$rewardval" valType="extendedStr" updates="set every repeat"/>
+        <Param name="units" val="from exp settings" valType="str" updates="None"/>
+        <Param name="wrapWidth" val="" valType="code" updates="constant"/>
+      </TextComponent>
+      <MouseComponent name="resp">
+        <Param name="clickable" val="tree4_4" valType="code" updates="constant"/>
+        <Param name="disabled" val="False" valType="bool" updates="None"/>
+        <Param name="durationEstim" val="" valType="code" updates="None"/>
+        <Param name="forceEndRoutineOnPress" val="valid click" valType="str" updates="constant"/>
+        <Param name="name" val="resp" valType="code" updates="None"/>
+        <Param name="newClicksOnly" val="True" valType="bool" updates="constant"/>
+        <Param name="saveMouseState" val="final" valType="str" updates="None"/>
+        <Param name="saveParamsClickable" val="name," valType="code" updates="constant"/>
+        <Param name="saveStartStop" val="True" valType="bool" updates="None"/>
+        <Param name="startEstim" val="" valType="code" updates="None"/>
+        <Param name="startType" val="time (s)" valType="str" updates="None"/>
+        <Param name="startVal" val="0.0" valType="code" updates="None"/>
+        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
+        <Param name="stopVal" val="" valType="code" updates="constant"/>
+        <Param name="syncScreenRefresh" val="False" valType="bool" updates="None"/>
+        <Param name="timeRelativeTo" val="mouse onset" valType="str" updates="constant"/>
+      </MouseComponent>
+    </Routine>
+    <Routine name="movetrees1_2">
+      <ImageComponent name="tree1_6">
+        <Param name="color" val="$[1,1,1]" valType="str" updates="constant"/>
+        <Param name="colorSpace" val="rgb" valType="str" updates="constant"/>
+        <Param name="disabled" val="False" valType="bool" updates="None"/>
+        <Param name="durationEstim" val="" valType="code" updates="None"/>
+        <Param name="flipHoriz" val="False" valType="bool" updates="constant"/>
+        <Param name="flipVert" val="False" valType="bool" updates="constant"/>
+        <Param name="image" val="images/tree.png" valType="str" updates="constant"/>
+        <Param name="interpolate" val="linear" valType="str" updates="constant"/>
+        <Param name="mask" val="None" valType="str" updates="constant"/>
+        <Param name="name" val="tree1_6" valType="code" updates="None"/>
+        <Param name="opacity" val="1" valType="code" updates="constant"/>
+        <Param name="ori" val="0" valType="code" updates="constant"/>
+        <Param name="pos" val="$(0.5, tree1_p)" valType="code" updates="set every repeat"/>
+        <Param name="saveStartStop" val="True" valType="bool" updates="None"/>
+        <Param name="size" val="(0.2, 0.2)" valType="code" updates="constant"/>
+        <Param name="startEstim" val="" valType="code" updates="None"/>
+        <Param name="startType" val="time (s)" valType="str" updates="None"/>
+        <Param name="startVal" val="0" valType="code" updates="None"/>
+        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
+        <Param name="stopVal" val="0.5" valType="code" updates="constant"/>
+        <Param name="syncScreenRefresh" val="True" valType="bool" updates="None"/>
+        <Param name="texture resolution" val="128" valType="code" updates="constant"/>
+        <Param name="units" val="from exp settings" valType="str" updates="None"/>
+      </ImageComponent>
+      <ImageComponent name="tree2_6">
+        <Param name="color" val="$[1,1,1]" valType="str" updates="constant"/>
+        <Param name="colorSpace" val="rgb" valType="str" updates="constant"/>
+        <Param name="disabled" val="False" valType="bool" updates="None"/>
+        <Param name="durationEstim" val="" valType="code" updates="None"/>
+        <Param name="flipHoriz" val="False" valType="bool" updates="constant"/>
+        <Param name="flipVert" val="False" valType="bool" updates="constant"/>
+        <Param name="image" val="images/tree.png" valType="str" updates="constant"/>
+        <Param name="interpolate" val="linear" valType="str" updates="constant"/>
+        <Param name="mask" val="None" valType="str" updates="constant"/>
+        <Param name="name" val="tree2_6" valType="code" updates="None"/>
+        <Param name="opacity" val="1" valType="code" updates="constant"/>
+        <Param name="ori" val="0" valType="code" updates="constant"/>
+        <Param name="pos" val="$(-0.5, tree2_n)" valType="code" updates="set every repeat"/>
+        <Param name="saveStartStop" val="True" valType="bool" updates="None"/>
+        <Param name="size" val="(0.2, 0.2)" valType="code" updates="constant"/>
+        <Param name="startEstim" val="" valType="code" updates="None"/>
+        <Param name="startType" val="time (s)" valType="str" updates="None"/>
+        <Param name="startVal" val="0" valType="code" updates="None"/>
+        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
+        <Param name="stopVal" val="0.5" valType="code" updates="constant"/>
+        <Param name="syncScreenRefresh" val="True" valType="bool" updates="None"/>
+        <Param name="texture resolution" val="128" valType="code" updates="constant"/>
+        <Param name="units" val="from exp settings" valType="str" updates="None"/>
+      </ImageComponent>
+      <ImageComponent name="tree3_6">
+        <Param name="color" val="$[1,1,1]" valType="str" updates="constant"/>
+        <Param name="colorSpace" val="rgb" valType="str" updates="constant"/>
+        <Param name="disabled" val="False" valType="bool" updates="None"/>
+        <Param name="durationEstim" val="" valType="code" updates="None"/>
+        <Param name="flipHoriz" val="False" valType="bool" updates="constant"/>
+        <Param name="flipVert" val="False" valType="bool" updates="constant"/>
+        <Param name="image" val="images/tree.png" valType="str" updates="constant"/>
+        <Param name="interpolate" val="linear" valType="str" updates="constant"/>
+        <Param name="mask" val="None" valType="str" updates="constant"/>
+        <Param name="name" val="tree3_6" valType="code" updates="None"/>
+        <Param name="opacity" val="1" valType="code" updates="constant"/>
+        <Param name="ori" val="0" valType="code" updates="constant"/>
+        <Param name="pos" val="$(0.5, tree3_p)" valType="code" updates="set every repeat"/>
+        <Param name="saveStartStop" val="True" valType="bool" updates="None"/>
+        <Param name="size" val="(0.2, 0.2)" valType="code" updates="constant"/>
+        <Param name="startEstim" val="" valType="code" updates="None"/>
+        <Param name="startType" val="time (s)" valType="str" updates="None"/>
+        <Param name="startVal" val="0" valType="code" updates="None"/>
+        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
+        <Param name="stopVal" val="0.5" valType="code" updates="constant"/>
+        <Param name="syncScreenRefresh" val="True" valType="bool" updates="None"/>
+        <Param name="texture resolution" val="128" valType="code" updates="constant"/>
+        <Param name="units" val="from exp settings" valType="str" updates="None"/>
+      </ImageComponent>
+      <ImageComponent name="tree4_6">
+        <Param name="color" val="$[1,1,1]" valType="str" updates="constant"/>
+        <Param name="colorSpace" val="rgb" valType="str" updates="constant"/>
+        <Param name="disabled" val="False" valType="bool" updates="None"/>
+        <Param name="durationEstim" val="" valType="code" updates="None"/>
+        <Param name="flipHoriz" val="False" valType="bool" updates="constant"/>
+        <Param name="flipVert" val="False" valType="bool" updates="constant"/>
+        <Param name="image" val="images/tree.png" valType="str" updates="constant"/>
+        <Param name="interpolate" val="linear" valType="str" updates="constant"/>
+        <Param name="mask" val="None" valType="str" updates="constant"/>
+        <Param name="name" val="tree4_6" valType="code" updates="None"/>
+        <Param name="opacity" val="1" valType="code" updates="constant"/>
+        <Param name="ori" val="0" valType="code" updates="constant"/>
+        <Param name="pos" val="$(-0.5, tree4_n)" valType="code" updates="set every repeat"/>
+        <Param name="saveStartStop" val="True" valType="bool" updates="None"/>
+        <Param name="size" val="(0.2, 0.2)" valType="code" updates="constant"/>
+        <Param name="startEstim" val="" valType="code" updates="None"/>
+        <Param name="startType" val="time (s)" valType="str" updates="None"/>
+        <Param name="startVal" val="0" valType="code" updates="None"/>
+        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
+        <Param name="stopVal" val="0.5" valType="code" updates="constant"/>
+        <Param name="syncScreenRefresh" val="True" valType="bool" updates="None"/>
+        <Param name="texture resolution" val="128" valType="code" updates="constant"/>
+        <Param name="units" val="from exp settings" valType="str" updates="None"/>
+      </ImageComponent>
+      <ImageComponent name="tree5_6">
+        <Param name="color" val="$[1,1,1]" valType="str" updates="constant"/>
+        <Param name="colorSpace" val="rgb" valType="str" updates="constant"/>
+        <Param name="disabled" val="False" valType="bool" updates="None"/>
+        <Param name="durationEstim" val="" valType="code" updates="None"/>
+        <Param name="flipHoriz" val="False" valType="bool" updates="constant"/>
+        <Param name="flipVert" val="False" valType="bool" updates="constant"/>
+        <Param name="image" val="images/tree.png" valType="str" updates="constant"/>
+        <Param name="interpolate" val="linear" valType="str" updates="constant"/>
+        <Param name="mask" val="None" valType="str" updates="constant"/>
+        <Param name="name" val="tree5_6" valType="code" updates="None"/>
+        <Param name="opacity" val="1" valType="code" updates="constant"/>
+        <Param name="ori" val="0" valType="code" updates="constant"/>
+        <Param name="pos" val="$(0.5, tree5_p)" valType="code" updates="set every repeat"/>
+        <Param name="saveStartStop" val="True" valType="bool" updates="None"/>
+        <Param name="size" val="(0.2, 0.2)" valType="code" updates="constant"/>
+        <Param name="startEstim" val="" valType="code" updates="None"/>
+        <Param name="startType" val="time (s)" valType="str" updates="None"/>
+        <Param name="startVal" val="0" valType="code" updates="None"/>
+        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
+        <Param name="stopVal" val="0.5" valType="code" updates="constant"/>
+        <Param name="syncScreenRefresh" val="True" valType="bool" updates="None"/>
+        <Param name="texture resolution" val="128" valType="code" updates="constant"/>
+        <Param name="units" val="from exp settings" valType="str" updates="None"/>
+      </ImageComponent>
+      <ImageComponent name="tree6_6">
+        <Param name="color" val="$[1,1,1]" valType="str" updates="constant"/>
+        <Param name="colorSpace" val="rgb" valType="str" updates="constant"/>
+        <Param name="disabled" val="False" valType="bool" updates="None"/>
+        <Param name="durationEstim" val="" valType="code" updates="None"/>
+        <Param name="flipHoriz" val="False" valType="bool" updates="constant"/>
+        <Param name="flipVert" val="False" valType="bool" updates="constant"/>
+        <Param name="image" val="images/tree.png" valType="str" updates="constant"/>
+        <Param name="interpolate" val="linear" valType="str" updates="constant"/>
+        <Param name="mask" val="None" valType="str" updates="constant"/>
+        <Param name="name" val="tree6_6" valType="code" updates="None"/>
+        <Param name="opacity" val="1" valType="code" updates="constant"/>
+        <Param name="ori" val="0" valType="code" updates="constant"/>
+        <Param name="pos" val="$(-0.5, tree6_n)" valType="code" updates="set every repeat"/>
+        <Param name="saveStartStop" val="True" valType="bool" updates="None"/>
+        <Param name="size" val="(0.2, 0.2)" valType="code" updates="constant"/>
+        <Param name="startEstim" val="" valType="code" updates="None"/>
+        <Param name="startType" val="time (s)" valType="str" updates="None"/>
+        <Param name="startVal" val="0" valType="code" updates="None"/>
+        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
+        <Param name="stopVal" val="0.5" valType="code" updates="constant"/>
+        <Param name="syncScreenRefresh" val="True" valType="bool" updates="None"/>
+        <Param name="texture resolution" val="128" valType="code" updates="constant"/>
+        <Param name="units" val="from exp settings" valType="str" updates="None"/>
+      </ImageComponent>
+      <ImageComponent name="square_6">
+        <Param name="color" val="$[1,1,1]" valType="str" updates="constant"/>
+        <Param name="colorSpace" val="rgb" valType="str" updates="constant"/>
+        <Param name="disabled" val="False" valType="bool" updates="None"/>
+        <Param name="durationEstim" val="" valType="code" updates="None"/>
+        <Param name="flipHoriz" val="False" valType="bool" updates="constant"/>
+        <Param name="flipVert" val="False" valType="bool" updates="constant"/>
+        <Param name="image" val="images/hollow.png" valType="str" updates="constant"/>
+        <Param name="interpolate" val="linear" valType="str" updates="constant"/>
+        <Param name="mask" val="None" valType="str" updates="constant"/>
+        <Param name="name" val="square_6" valType="code" updates="None"/>
+        <Param name="opacity" val="1" valType="code" updates="constant"/>
+        <Param name="ori" val="0" valType="code" updates="constant"/>
+        <Param name="pos" val="(0, -0.2)" valType="code" updates="constant"/>
+        <Param name="saveStartStop" val="True" valType="bool" updates="None"/>
+        <Param name="size" val="(0.25, 0.25)" valType="code" updates="constant"/>
+        <Param name="startEstim" val="" valType="code" updates="None"/>
+        <Param name="startType" val="time (s)" valType="str" updates="None"/>
+        <Param name="startVal" val="0.0" valType="code" updates="None"/>
+        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
+        <Param name="stopVal" val="0.5" valType="code" updates="constant"/>
+        <Param name="syncScreenRefresh" val="True" valType="bool" updates="None"/>
+        <Param name="texture resolution" val="128" valType="code" updates="constant"/>
+        <Param name="units" val="from exp settings" valType="str" updates="None"/>
+      </ImageComponent>
+    </Routine>
+    <Routine name="rewardframe2">
+      <ImageComponent name="tree1_5">
+        <Param name="color" val="$[1,1,1]" valType="str" updates="constant"/>
+        <Param name="colorSpace" val="rgb" valType="str" updates="constant"/>
+        <Param name="disabled" val="False" valType="bool" updates="None"/>
+        <Param name="durationEstim" val="" valType="code" updates="None"/>
+        <Param name="flipHoriz" val="False" valType="bool" updates="constant"/>
+        <Param name="flipVert" val="False" valType="bool" updates="constant"/>
+        <Param name="image" val="images/tree.png" valType="str" updates="constant"/>
+        <Param name="interpolate" val="linear" valType="str" updates="constant"/>
+        <Param name="mask" val="None" valType="str" updates="constant"/>
+        <Param name="name" val="tree1_5" valType="code" updates="None"/>
+        <Param name="opacity" val="1" valType="code" updates="constant"/>
+        <Param name="ori" val="0" valType="code" updates="constant"/>
+        <Param name="pos" val="$(0.5, 0.2)" valType="code" updates="set every repeat"/>
+        <Param name="saveStartStop" val="True" valType="bool" updates="None"/>
+        <Param name="size" val="(0.2, 0.2)" valType="code" updates="constant"/>
+        <Param name="startEstim" val="" valType="code" updates="None"/>
+        <Param name="startType" val="time (s)" valType="str" updates="None"/>
+        <Param name="startVal" val="0" valType="code" updates="None"/>
+        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
+        <Param name="stopVal" val="" valType="code" updates="constant"/>
+        <Param name="syncScreenRefresh" val="True" valType="bool" updates="None"/>
+        <Param name="texture resolution" val="128" valType="code" updates="constant"/>
+        <Param name="units" val="from exp settings" valType="str" updates="None"/>
+      </ImageComponent>
+      <ImageComponent name="tree2_5">
+        <Param name="color" val="$[1,1,1]" valType="str" updates="constant"/>
+        <Param name="colorSpace" val="rgb" valType="str" updates="constant"/>
+        <Param name="disabled" val="False" valType="bool" updates="None"/>
+        <Param name="durationEstim" val="" valType="code" updates="None"/>
+        <Param name="flipHoriz" val="False" valType="bool" updates="constant"/>
+        <Param name="flipVert" val="False" valType="bool" updates="constant"/>
+        <Param name="image" val="images/tree.png" valType="str" updates="constant"/>
+        <Param name="interpolate" val="linear" valType="str" updates="constant"/>
+        <Param name="mask" val="None" valType="str" updates="constant"/>
+        <Param name="name" val="tree2_5" valType="code" updates="None"/>
+        <Param name="opacity" val="1" valType="code" updates="constant"/>
+        <Param name="ori" val="0" valType="code" updates="constant"/>
+        <Param name="pos" val="$(-0.5, 0)" valType="code" updates="set every repeat"/>
+        <Param name="saveStartStop" val="True" valType="bool" updates="None"/>
+        <Param name="size" val="(0.2, 0.2)" valType="code" updates="constant"/>
+        <Param name="startEstim" val="" valType="code" updates="None"/>
+        <Param name="startType" val="time (s)" valType="str" updates="None"/>
+        <Param name="startVal" val="0" valType="code" updates="None"/>
+        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
+        <Param name="stopVal" val="" valType="code" updates="constant"/>
+        <Param name="syncScreenRefresh" val="True" valType="bool" updates="None"/>
+        <Param name="texture resolution" val="128" valType="code" updates="constant"/>
+        <Param name="units" val="from exp settings" valType="str" updates="None"/>
+      </ImageComponent>
+      <ImageComponent name="tree3_5">
+        <Param name="color" val="$[1,1,1]" valType="str" updates="constant"/>
+        <Param name="colorSpace" val="rgb" valType="str" updates="constant"/>
+        <Param name="disabled" val="False" valType="bool" updates="None"/>
+        <Param name="durationEstim" val="" valType="code" updates="None"/>
+        <Param name="flipHoriz" val="False" valType="bool" updates="constant"/>
+        <Param name="flipVert" val="False" valType="bool" updates="constant"/>
+        <Param name="image" val="images/tree.png" valType="str" updates="constant"/>
+        <Param name="interpolate" val="linear" valType="str" updates="constant"/>
+        <Param name="mask" val="None" valType="str" updates="constant"/>
+        <Param name="name" val="tree3_5" valType="code" updates="None"/>
+        <Param name="opacity" val="1" valType="code" updates="constant"/>
+        <Param name="ori" val="0" valType="code" updates="constant"/>
+        <Param name="pos" val="$(0.5, -0.2)" valType="code" updates="set every repeat"/>
+        <Param name="saveStartStop" val="True" valType="bool" updates="None"/>
+        <Param name="size" val="(0.2, 0.2)" valType="code" updates="constant"/>
+        <Param name="startEstim" val="" valType="code" updates="None"/>
+        <Param name="startType" val="time (s)" valType="str" updates="None"/>
+        <Param name="startVal" val="0" valType="code" updates="None"/>
+        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
+        <Param name="stopVal" val="" valType="code" updates="constant"/>
+        <Param name="syncScreenRefresh" val="True" valType="bool" updates="None"/>
+        <Param name="texture resolution" val="128" valType="code" updates="constant"/>
+        <Param name="units" val="from exp settings" valType="str" updates="None"/>
+      </ImageComponent>
+      <ImageComponent name="tree4_5">
+        <Param name="color" val="$[1,1,1]" valType="str" updates="constant"/>
+        <Param name="colorSpace" val="rgb" valType="str" updates="constant"/>
+        <Param name="disabled" val="False" valType="bool" updates="None"/>
+        <Param name="durationEstim" val="" valType="code" updates="None"/>
+        <Param name="flipHoriz" val="False" valType="bool" updates="constant"/>
+        <Param name="flipVert" val="False" valType="bool" updates="constant"/>
+        <Param name="image" val="images/tree.png" valType="str" updates="constant"/>
+        <Param name="interpolate" val="linear" valType="str" updates="constant"/>
+        <Param name="mask" val="None" valType="str" updates="constant"/>
+        <Param name="name" val="tree4_5" valType="code" updates="None"/>
+        <Param name="opacity" val="1" valType="code" updates="constant"/>
+        <Param name="ori" val="0" valType="code" updates="constant"/>
+        <Param name="pos" val="$(-0.5, -0.4)" valType="code" updates="set every repeat"/>
+        <Param name="saveStartStop" val="True" valType="bool" updates="None"/>
+        <Param name="size" val="(0.2, 0.2)" valType="code" updates="constant"/>
+        <Param name="startEstim" val="" valType="code" updates="None"/>
+        <Param name="startType" val="time (s)" valType="str" updates="None"/>
+        <Param name="startVal" val="0" valType="code" updates="None"/>
+        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
+        <Param name="stopVal" val="" valType="code" updates="constant"/>
+        <Param name="syncScreenRefresh" val="True" valType="bool" updates="None"/>
+        <Param name="texture resolution" val="128" valType="code" updates="constant"/>
+        <Param name="units" val="from exp settings" valType="str" updates="None"/>
+      </ImageComponent>
+      <ImageComponent name="tree5_5">
+        <Param name="color" val="$[1,1,1]" valType="str" updates="constant"/>
+        <Param name="colorSpace" val="rgb" valType="str" updates="constant"/>
+        <Param name="disabled" val="False" valType="bool" updates="None"/>
+        <Param name="durationEstim" val="" valType="code" updates="None"/>
+        <Param name="flipHoriz" val="False" valType="bool" updates="constant"/>
+        <Param name="flipVert" val="False" valType="bool" updates="constant"/>
+        <Param name="image" val="images/tree.png" valType="str" updates="constant"/>
+        <Param name="interpolate" val="linear" valType="str" updates="constant"/>
+        <Param name="mask" val="None" valType="str" updates="constant"/>
+        <Param name="name" val="tree5_5" valType="code" updates="None"/>
+        <Param name="opacity" val="1" valType="code" updates="constant"/>
+        <Param name="ori" val="0" valType="code" updates="constant"/>
+        <Param name="pos" val="$(0.5, -0.6)" valType="code" updates="set every repeat"/>
+        <Param name="saveStartStop" val="True" valType="bool" updates="None"/>
+        <Param name="size" val="(0.2, 0.2)" valType="code" updates="constant"/>
+        <Param name="startEstim" val="" valType="code" updates="None"/>
+        <Param name="startType" val="time (s)" valType="str" updates="None"/>
+        <Param name="startVal" val="0" valType="code" updates="None"/>
+        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
+        <Param name="stopVal" val="" valType="code" updates="constant"/>
+        <Param name="syncScreenRefresh" val="True" valType="bool" updates="None"/>
+        <Param name="texture resolution" val="128" valType="code" updates="constant"/>
+        <Param name="units" val="from exp settings" valType="str" updates="None"/>
+      </ImageComponent>
+      <ImageComponent name="tree6_5">
+        <Param name="color" val="$[1,1,1]" valType="str" updates="constant"/>
+        <Param name="colorSpace" val="rgb" valType="str" updates="constant"/>
+        <Param name="disabled" val="False" valType="bool" updates="None"/>
+        <Param name="durationEstim" val="" valType="code" updates="None"/>
+        <Param name="flipHoriz" val="False" valType="bool" updates="constant"/>
+        <Param name="flipVert" val="False" valType="bool" updates="constant"/>
+        <Param name="image" val="images/tree.png" valType="str" updates="constant"/>
+        <Param name="interpolate" val="linear" valType="str" updates="constant"/>
+        <Param name="mask" val="None" valType="str" updates="constant"/>
+        <Param name="name" val="tree6_5" valType="code" updates="None"/>
+        <Param name="opacity" val="1" valType="code" updates="constant"/>
+        <Param name="ori" val="0" valType="code" updates="constant"/>
+        <Param name="pos" val="$(-0.5, 0.4)" valType="code" updates="set every repeat"/>
+        <Param name="saveStartStop" val="True" valType="bool" updates="None"/>
+        <Param name="size" val="(0.2, 0.2)" valType="code" updates="constant"/>
+        <Param name="startEstim" val="" valType="code" updates="None"/>
+        <Param name="startType" val="time (s)" valType="str" updates="None"/>
+        <Param name="startVal" val="0" valType="code" updates="None"/>
+        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
+        <Param name="stopVal" val="" valType="code" updates="constant"/>
+        <Param name="syncScreenRefresh" val="True" valType="bool" updates="None"/>
+        <Param name="texture resolution" val="128" valType="code" updates="constant"/>
+        <Param name="units" val="from exp settings" valType="str" updates="None"/>
+      </ImageComponent>
+      <ImageComponent name="square_5">
+        <Param name="color" val="$[1,1,1]" valType="str" updates="constant"/>
+        <Param name="colorSpace" val="rgb" valType="str" updates="constant"/>
+        <Param name="disabled" val="False" valType="bool" updates="None"/>
+        <Param name="durationEstim" val="" valType="code" updates="None"/>
+        <Param name="flipHoriz" val="False" valType="bool" updates="constant"/>
+        <Param name="flipVert" val="False" valType="bool" updates="constant"/>
+        <Param name="image" val="images/hollow.png" valType="str" updates="constant"/>
+        <Param name="interpolate" val="linear" valType="str" updates="constant"/>
+        <Param name="mask" val="None" valType="str" updates="constant"/>
+        <Param name="name" val="square_5" valType="code" updates="None"/>
+        <Param name="opacity" val="1" valType="code" updates="constant"/>
+        <Param name="ori" val="0" valType="code" updates="constant"/>
+        <Param name="pos" val="(0, -0.2)" valType="code" updates="constant"/>
+        <Param name="saveStartStop" val="True" valType="bool" updates="None"/>
+        <Param name="size" val="(0.25, 0.25)" valType="code" updates="constant"/>
+        <Param name="startEstim" val="" valType="code" updates="None"/>
+        <Param name="startType" val="time (s)" valType="str" updates="None"/>
+        <Param name="startVal" val="0.0" valType="code" updates="None"/>
+        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
+        <Param name="stopVal" val="" valType="code" updates="constant"/>
+        <Param name="syncScreenRefresh" val="True" valType="bool" updates="None"/>
+        <Param name="texture resolution" val="128" valType="code" updates="constant"/>
+        <Param name="units" val="from exp settings" valType="str" updates="None"/>
+      </ImageComponent>
+      <TextComponent name="reward_3">
+        <Param name="color" val="green" valType="str" updates="constant"/>
+        <Param name="colorSpace" val="rgb" valType="str" updates="constant"/>
+        <Param name="disabled" val="False" valType="bool" updates="None"/>
+        <Param name="durationEstim" val="" valType="code" updates="None"/>
+        <Param name="flip" val="" valType="str" updates="constant"/>
+        <Param name="font" val="Arial" valType="str" updates="constant"/>
+        <Param name="languageStyle" val="LTR" valType="str" updates="None"/>
+        <Param name="letterHeight" val="0.05" valType="code" updates="constant"/>
+        <Param name="name" val="reward_3" valType="code" updates="None"/>
+        <Param name="opacity" val="1" valType="code" updates="constant"/>
+        <Param name="ori" val="0" valType="code" updates="constant"/>
+        <Param name="pos" val="(0.6, -0.08)" valType="code" updates="constant"/>
+        <Param name="saveStartStop" val="True" valType="bool" updates="None"/>
+        <Param name="startEstim" val="" valType="code" updates="None"/>
+        <Param name="startType" val="time (s)" valType="str" updates="None"/>
+        <Param name="startVal" val="0.0" valType="code" updates="None"/>
+        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
+        <Param name="stopVal" val="" valType="code" updates="constant"/>
+        <Param name="syncScreenRefresh" val="True" valType="bool" updates="None"/>
+        <Param name="text" val="$rewardval" valType="extendedStr" updates="set every repeat"/>
+        <Param name="units" val="from exp settings" valType="str" updates="None"/>
+        <Param name="wrapWidth" val="" valType="code" updates="constant"/>
+      </TextComponent>
+      <MouseComponent name="resp_3">
+        <Param name="clickable" val="tree3_5" valType="code" updates="constant"/>
+        <Param name="disabled" val="False" valType="bool" updates="None"/>
+        <Param name="durationEstim" val="" valType="code" updates="None"/>
+        <Param name="forceEndRoutineOnPress" val="valid click" valType="str" updates="constant"/>
+        <Param name="name" val="resp_3" valType="code" updates="None"/>
+        <Param name="newClicksOnly" val="True" valType="bool" updates="constant"/>
+        <Param name="saveMouseState" val="final" valType="str" updates="None"/>
+        <Param name="saveParamsClickable" val="name," valType="code" updates="constant"/>
+        <Param name="saveStartStop" val="True" valType="bool" updates="None"/>
+        <Param name="startEstim" val="" valType="code" updates="None"/>
+        <Param name="startType" val="time (s)" valType="str" updates="None"/>
+        <Param name="startVal" val="0.0" valType="code" updates="None"/>
+        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
+        <Param name="stopVal" val="" valType="code" updates="constant"/>
+        <Param name="syncScreenRefresh" val="False" valType="bool" updates="None"/>
+        <Param name="timeRelativeTo" val="mouse onset" valType="str" updates="constant"/>
+      </MouseComponent>
+    </Routine>
+    <Routine name="rewardframe3">
+      <ImageComponent name="tree1_7">
+        <Param name="color" val="$[1,1,1]" valType="str" updates="constant"/>
+        <Param name="colorSpace" val="rgb" valType="str" updates="constant"/>
+        <Param name="disabled" val="False" valType="bool" updates="None"/>
+        <Param name="durationEstim" val="" valType="code" updates="None"/>
+        <Param name="flipHoriz" val="False" valType="bool" updates="constant"/>
+        <Param name="flipVert" val="False" valType="bool" updates="constant"/>
+        <Param name="image" val="images/tree.png" valType="str" updates="constant"/>
+        <Param name="interpolate" val="linear" valType="str" updates="constant"/>
+        <Param name="mask" val="None" valType="str" updates="constant"/>
+        <Param name="name" val="tree1_7" valType="code" updates="None"/>
+        <Param name="opacity" val="1" valType="code" updates="constant"/>
+        <Param name="ori" val="0" valType="code" updates="constant"/>
+        <Param name="pos" val="$(0.5, 0)" valType="code" updates="set every repeat"/>
+        <Param name="saveStartStop" val="True" valType="bool" updates="None"/>
+        <Param name="size" val="(0.2, 0.2)" valType="code" updates="constant"/>
+        <Param name="startEstim" val="" valType="code" updates="None"/>
+        <Param name="startType" val="time (s)" valType="str" updates="None"/>
+        <Param name="startVal" val="0" valType="code" updates="None"/>
+        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
+        <Param name="stopVal" val="" valType="code" updates="constant"/>
+        <Param name="syncScreenRefresh" val="True" valType="bool" updates="None"/>
+        <Param name="texture resolution" val="128" valType="code" updates="constant"/>
+        <Param name="units" val="from exp settings" valType="str" updates="None"/>
+      </ImageComponent>
+      <ImageComponent name="tree2_7">
+        <Param name="color" val="$[1,1,1]" valType="str" updates="constant"/>
+        <Param name="colorSpace" val="rgb" valType="str" updates="constant"/>
+        <Param name="disabled" val="False" valType="bool" updates="None"/>
+        <Param name="durationEstim" val="" valType="code" updates="None"/>
+        <Param name="flipHoriz" val="False" valType="bool" updates="constant"/>
+        <Param name="flipVert" val="False" valType="bool" updates="constant"/>
+        <Param name="image" val="images/tree.png" valType="str" updates="constant"/>
+        <Param name="interpolate" val="linear" valType="str" updates="constant"/>
+        <Param name="mask" val="None" valType="str" updates="constant"/>
+        <Param name="name" val="tree2_7" valType="code" updates="None"/>
+        <Param name="opacity" val="1" valType="code" updates="constant"/>
+        <Param name="ori" val="0" valType="code" updates="constant"/>
+        <Param name="pos" val="$(-0.5, -0.2)" valType="code" updates="set every repeat"/>
+        <Param name="saveStartStop" val="True" valType="bool" updates="None"/>
+        <Param name="size" val="(0.2, 0.2)" valType="code" updates="constant"/>
+        <Param name="startEstim" val="" valType="code" updates="None"/>
+        <Param name="startType" val="time (s)" valType="str" updates="None"/>
+        <Param name="startVal" val="0" valType="code" updates="None"/>
+        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
+        <Param name="stopVal" val="" valType="code" updates="constant"/>
+        <Param name="syncScreenRefresh" val="True" valType="bool" updates="None"/>
+        <Param name="texture resolution" val="128" valType="code" updates="constant"/>
+        <Param name="units" val="from exp settings" valType="str" updates="None"/>
+      </ImageComponent>
+      <ImageComponent name="tree3_7">
+        <Param name="color" val="$[1,1,1]" valType="str" updates="constant"/>
+        <Param name="colorSpace" val="rgb" valType="str" updates="constant"/>
+        <Param name="disabled" val="False" valType="bool" updates="None"/>
+        <Param name="durationEstim" val="" valType="code" updates="None"/>
+        <Param name="flipHoriz" val="False" valType="bool" updates="constant"/>
+        <Param name="flipVert" val="False" valType="bool" updates="constant"/>
+        <Param name="image" val="images/tree.png" valType="str" updates="constant"/>
+        <Param name="interpolate" val="linear" valType="str" updates="constant"/>
+        <Param name="mask" val="None" valType="str" updates="constant"/>
+        <Param name="name" val="tree3_7" valType="code" updates="None"/>
+        <Param name="opacity" val="1" valType="code" updates="constant"/>
+        <Param name="ori" val="0" valType="code" updates="constant"/>
+        <Param name="pos" val="$(0.5, -0.4)" valType="code" updates="set every repeat"/>
+        <Param name="saveStartStop" val="True" valType="bool" updates="None"/>
+        <Param name="size" val="(0.2, 0.2)" valType="code" updates="constant"/>
+        <Param name="startEstim" val="" valType="code" updates="None"/>
+        <Param name="startType" val="time (s)" valType="str" updates="None"/>
+        <Param name="startVal" val="0" valType="code" updates="None"/>
+        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
+        <Param name="stopVal" val="" valType="code" updates="constant"/>
+        <Param name="syncScreenRefresh" val="True" valType="bool" updates="None"/>
+        <Param name="texture resolution" val="128" valType="code" updates="constant"/>
+        <Param name="units" val="from exp settings" valType="str" updates="None"/>
+      </ImageComponent>
+      <ImageComponent name="tree4_7">
+        <Param name="color" val="$[1,1,1]" valType="str" updates="constant"/>
+        <Param name="colorSpace" val="rgb" valType="str" updates="constant"/>
+        <Param name="disabled" val="False" valType="bool" updates="None"/>
+        <Param name="durationEstim" val="" valType="code" updates="None"/>
+        <Param name="flipHoriz" val="False" valType="bool" updates="constant"/>
+        <Param name="flipVert" val="False" valType="bool" updates="constant"/>
+        <Param name="image" val="images/tree.png" valType="str" updates="constant"/>
+        <Param name="interpolate" val="linear" valType="str" updates="constant"/>
+        <Param name="mask" val="None" valType="str" updates="constant"/>
+        <Param name="name" val="tree4_7" valType="code" updates="None"/>
+        <Param name="opacity" val="1" valType="code" updates="constant"/>
+        <Param name="ori" val="0" valType="code" updates="constant"/>
+        <Param name="pos" val="$(-0.5, -0.6)" valType="code" updates="set every repeat"/>
+        <Param name="saveStartStop" val="True" valType="bool" updates="None"/>
+        <Param name="size" val="(0.2, 0.2)" valType="code" updates="constant"/>
+        <Param name="startEstim" val="" valType="code" updates="None"/>
+        <Param name="startType" val="time (s)" valType="str" updates="None"/>
+        <Param name="startVal" val="0" valType="code" updates="None"/>
+        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
+        <Param name="stopVal" val="" valType="code" updates="constant"/>
+        <Param name="syncScreenRefresh" val="True" valType="bool" updates="None"/>
+        <Param name="texture resolution" val="128" valType="code" updates="constant"/>
+        <Param name="units" val="from exp settings" valType="str" updates="None"/>
+      </ImageComponent>
+      <ImageComponent name="tree5_7">
+        <Param name="color" val="$[1,1,1]" valType="str" updates="constant"/>
+        <Param name="colorSpace" val="rgb" valType="str" updates="constant"/>
+        <Param name="disabled" val="False" valType="bool" updates="None"/>
+        <Param name="durationEstim" val="" valType="code" updates="None"/>
+        <Param name="flipHoriz" val="False" valType="bool" updates="constant"/>
+        <Param name="flipVert" val="False" valType="bool" updates="constant"/>
+        <Param name="image" val="images/tree.png" valType="str" updates="constant"/>
+        <Param name="interpolate" val="linear" valType="str" updates="constant"/>
+        <Param name="mask" val="None" valType="str" updates="constant"/>
+        <Param name="name" val="tree5_7" valType="code" updates="None"/>
+        <Param name="opacity" val="1" valType="code" updates="constant"/>
+        <Param name="ori" val="0" valType="code" updates="constant"/>
+        <Param name="pos" val="$(0.5, 0.4)" valType="code" updates="set every repeat"/>
+        <Param name="saveStartStop" val="True" valType="bool" updates="None"/>
+        <Param name="size" val="(0.2, 0.2)" valType="code" updates="constant"/>
+        <Param name="startEstim" val="" valType="code" updates="None"/>
+        <Param name="startType" val="time (s)" valType="str" updates="None"/>
+        <Param name="startVal" val="0" valType="code" updates="None"/>
+        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
+        <Param name="stopVal" val="" valType="code" updates="constant"/>
+        <Param name="syncScreenRefresh" val="True" valType="bool" updates="None"/>
+        <Param name="texture resolution" val="128" valType="code" updates="constant"/>
+        <Param name="units" val="from exp settings" valType="str" updates="None"/>
+      </ImageComponent>
+      <ImageComponent name="tree6_7">
+        <Param name="color" val="$[1,1,1]" valType="str" updates="constant"/>
+        <Param name="colorSpace" val="rgb" valType="str" updates="constant"/>
+        <Param name="disabled" val="False" valType="bool" updates="None"/>
+        <Param name="durationEstim" val="" valType="code" updates="None"/>
+        <Param name="flipHoriz" val="False" valType="bool" updates="constant"/>
+        <Param name="flipVert" val="False" valType="bool" updates="constant"/>
+        <Param name="image" val="images/tree.png" valType="str" updates="constant"/>
+        <Param name="interpolate" val="linear" valType="str" updates="constant"/>
+        <Param name="mask" val="None" valType="str" updates="constant"/>
+        <Param name="name" val="tree6_7" valType="code" updates="None"/>
+        <Param name="opacity" val="1" valType="code" updates="constant"/>
+        <Param name="ori" val="0" valType="code" updates="constant"/>
+        <Param name="pos" val="$(-0.5, 0.2)" valType="code" updates="set every repeat"/>
+        <Param name="saveStartStop" val="True" valType="bool" updates="None"/>
+        <Param name="size" val="(0.2, 0.2)" valType="code" updates="constant"/>
+        <Param name="startEstim" val="" valType="code" updates="None"/>
+        <Param name="startType" val="time (s)" valType="str" updates="None"/>
+        <Param name="startVal" val="0" valType="code" updates="None"/>
+        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
+        <Param name="stopVal" val="" valType="code" updates="constant"/>
+        <Param name="syncScreenRefresh" val="True" valType="bool" updates="None"/>
+        <Param name="texture resolution" val="128" valType="code" updates="constant"/>
+        <Param name="units" val="from exp settings" valType="str" updates="None"/>
+      </ImageComponent>
+      <ImageComponent name="square_7">
+        <Param name="color" val="$[1,1,1]" valType="str" updates="constant"/>
+        <Param name="colorSpace" val="rgb" valType="str" updates="constant"/>
+        <Param name="disabled" val="False" valType="bool" updates="None"/>
+        <Param name="durationEstim" val="" valType="code" updates="None"/>
+        <Param name="flipHoriz" val="False" valType="bool" updates="constant"/>
+        <Param name="flipVert" val="False" valType="bool" updates="constant"/>
+        <Param name="image" val="images/hollow.png" valType="str" updates="constant"/>
+        <Param name="interpolate" val="linear" valType="str" updates="constant"/>
+        <Param name="mask" val="None" valType="str" updates="constant"/>
+        <Param name="name" val="square_7" valType="code" updates="None"/>
+        <Param name="opacity" val="1" valType="code" updates="constant"/>
+        <Param name="ori" val="0" valType="code" updates="constant"/>
+        <Param name="pos" val="(0, -0.2)" valType="code" updates="constant"/>
+        <Param name="saveStartStop" val="True" valType="bool" updates="None"/>
+        <Param name="size" val="(0.25, 0.25)" valType="code" updates="constant"/>
+        <Param name="startEstim" val="" valType="code" updates="None"/>
+        <Param name="startType" val="time (s)" valType="str" updates="None"/>
+        <Param name="startVal" val="0.0" valType="code" updates="None"/>
+        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
+        <Param name="stopVal" val="" valType="code" updates="constant"/>
+        <Param name="syncScreenRefresh" val="True" valType="bool" updates="None"/>
+        <Param name="texture resolution" val="128" valType="code" updates="constant"/>
+        <Param name="units" val="from exp settings" valType="str" updates="None"/>
+      </ImageComponent>
+      <TextComponent name="reward_4">
+        <Param name="color" val="green" valType="str" updates="constant"/>
+        <Param name="colorSpace" val="rgb" valType="str" updates="constant"/>
+        <Param name="disabled" val="False" valType="bool" updates="None"/>
+        <Param name="durationEstim" val="" valType="code" updates="None"/>
+        <Param name="flip" val="" valType="str" updates="constant"/>
+        <Param name="font" val="Arial" valType="str" updates="constant"/>
+        <Param name="languageStyle" val="LTR" valType="str" updates="None"/>
+        <Param name="letterHeight" val="0.05" valType="code" updates="constant"/>
+        <Param name="name" val="reward_4" valType="code" updates="None"/>
+        <Param name="opacity" val="1" valType="code" updates="constant"/>
+        <Param name="ori" val="0" valType="code" updates="constant"/>
+        <Param name="pos" val="(-0.6, -0.08)" valType="code" updates="constant"/>
+        <Param name="saveStartStop" val="True" valType="bool" updates="None"/>
+        <Param name="startEstim" val="" valType="code" updates="None"/>
+        <Param name="startType" val="time (s)" valType="str" updates="None"/>
+        <Param name="startVal" val="0.0" valType="code" updates="None"/>
+        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
+        <Param name="stopVal" val="" valType="code" updates="constant"/>
+        <Param name="syncScreenRefresh" val="True" valType="bool" updates="None"/>
+        <Param name="text" val="$rewardval" valType="extendedStr" updates="set every repeat"/>
+        <Param name="units" val="from exp settings" valType="str" updates="None"/>
+        <Param name="wrapWidth" val="" valType="code" updates="constant"/>
+      </TextComponent>
+      <MouseComponent name="resp_4">
+        <Param name="clickable" val="tree2_7" valType="code" updates="constant"/>
+        <Param name="disabled" val="False" valType="bool" updates="None"/>
+        <Param name="durationEstim" val="" valType="code" updates="None"/>
+        <Param name="forceEndRoutineOnPress" val="valid click" valType="str" updates="constant"/>
+        <Param name="name" val="resp_4" valType="code" updates="None"/>
+        <Param name="newClicksOnly" val="True" valType="bool" updates="constant"/>
+        <Param name="saveMouseState" val="final" valType="str" updates="None"/>
+        <Param name="saveParamsClickable" val="name," valType="code" updates="constant"/>
+        <Param name="saveStartStop" val="True" valType="bool" updates="None"/>
+        <Param name="startEstim" val="" valType="code" updates="None"/>
+        <Param name="startType" val="time (s)" valType="str" updates="None"/>
+        <Param name="startVal" val="0.0" valType="code" updates="None"/>
+        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
+        <Param name="stopVal" val="" valType="code" updates="constant"/>
+        <Param name="syncScreenRefresh" val="False" valType="bool" updates="None"/>
+        <Param name="timeRelativeTo" val="mouse onset" valType="str" updates="constant"/>
+      </MouseComponent>
+    </Routine>
+    <Routine name="end">
+      <TextComponent name="text">
+        <Param name="color" val="black" valType="str" updates="constant"/>
+        <Param name="colorSpace" val="rgb" valType="str" updates="constant"/>
+        <Param name="disabled" val="False" valType="bool" updates="None"/>
+        <Param name="durationEstim" val="" valType="code" updates="None"/>
+        <Param name="flip" val="" valType="str" updates="constant"/>
+        <Param name="font" val="Arial" valType="str" updates="constant"/>
+        <Param name="languageStyle" val="LTR" valType="str" updates="None"/>
+        <Param name="letterHeight" val="0.05" valType="code" updates="constant"/>
+        <Param name="name" val="text" valType="code" updates="None"/>
+        <Param name="opacity" val="1" valType="code" updates="constant"/>
+        <Param name="ori" val="0" valType="code" updates="constant"/>
+        <Param name="pos" val="(0, 0)" valType="code" updates="constant"/>
+        <Param name="saveStartStop" val="True" valType="bool" updates="None"/>
+        <Param name="startEstim" val="" valType="code" updates="None"/>
+        <Param name="startType" val="time (s)" valType="str" updates="None"/>
+        <Param name="startVal" val="0.0" valType="code" updates="None"/>
+        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
+        <Param name="stopVal" val="5.0" valType="code" updates="constant"/>
+        <Param name="syncScreenRefresh" val="True" valType="bool" updates="None"/>
+        <Param name="text" val="The end~" valType="extendedStr" updates="constant"/>
+        <Param name="units" val="from exp settings" valType="str" updates="None"/>
+        <Param name="wrapWidth" val="" valType="code" updates="constant"/>
+      </TextComponent>
+    </Routine>
+  </Routines>
+  <Flow>
+    <Routine name="intro"/>
+    <LoopInitiator loopType="TrialHandler" name="reward1">
+      <Param name="Selected rows" val="" valType="str" updates="None"/>
+      <Param name="conditions" val="[OrderedDict([('rewardval', 7.5), ('rewardpos', -0.2)]), OrderedDict([('rewardval', 7.1), ('rewardpos', 0.2)]), OrderedDict([('rewardval', 6.2), ('rewardpos', -0.2)]), OrderedDict([('rewardval', 5.9), ('rewardpos', 0.2)]), OrderedDict([('rewardval', 5.1), ('rewardpos', -0.2)]), OrderedDict([('rewardval', 4.8), ('rewardpos', 0.2)]), OrderedDict([('rewardval', 4.0), ('rewardpos', -0.2)]), OrderedDict([('rewardval', 3.1), ('rewardpos', 0.2)]), OrderedDict([('rewardval', 2.6), ('rewardpos', -0.2)]), OrderedDict([('rewardval', 2.1), ('rewardpos', 0.2)]), OrderedDict([('rewardval', 1.3), ('rewardpos', -0.2)]), OrderedDict([('rewardval', 0.7), ('rewardpos', 0.2)]), OrderedDict([('rewardval', 0.0), ('rewardpos', -0.2)])]" valType="str" updates="None"/>
+      <Param name="conditionsFile" val="reward1.xlsx" valType="str" updates="None"/>
+      <Param name="endPoints" val="[0, 1]" valType="num" updates="None"/>
+      <Param name="isTrials" val="True" valType="bool" updates="None"/>
+      <Param name="loopType" val="sequential" valType="str" updates="None"/>
+      <Param name="nReps" val="1" valType="code" updates="None"/>
+      <Param name="name" val="reward1" valType="code" updates="None"/>
+      <Param name="random seed" val="" valType="code" updates="None"/>
+    </LoopInitiator>
+    <Routine name="rewardframe1"/>
+    <LoopTerminator name="reward1"/>
+    <LoopInitiator loopType="TrialHandler" name="con1">
+      <Param name="Selected rows" val="" valType="str" updates="None"/>
+      <Param name="conditions" val="[OrderedDict([('tree1_p', 0.4), ('tree2_n', 0.2), ('tree3_p', 0.0), ('tree4_n', -0.2), ('tree5_p', -0.6), ('tree6_n', -0.6)]), OrderedDict([('tree1_p', 0.35), ('tree2_n', 0.15), ('tree3_p', -0.05), ('tree4_n', -0.25), ('tree5_p', -0.6), ('tree6_n', 0.55)]), OrderedDict([('tree1_p', 0.3), ('tree2_n', 0.1), ('tree3_p', -0.1), ('tree4_n', -0.3), ('tree5_p', -0.6), ('tree6_n', 0.5)]), OrderedDict([('tree1_p', 0.25), ('tree2_n', 0.05), ('tree3_p', -0.15), ('tree4_n', -0.35), ('tree5_p', -0.6), ('tree6_n', 0.45)]), OrderedDict([('tree1_p', 0.2), ('tree2_n', 0.0), ('tree3_p', -0.2), ('tree4_n', -0.4), ('tree5_p', -0.6), ('tree6_n', 0.4)])]" valType="str" updates="None"/>
+      <Param name="conditionsFile" val="con1.xlsx" valType="str" updates="None"/>
+      <Param name="endPoints" val="[0, 1]" valType="num" updates="None"/>
+      <Param name="isTrials" val="True" valType="bool" updates="None"/>
+      <Param name="loopType" val="sequential" valType="str" updates="None"/>
+      <Param name="nReps" val="1" valType="code" updates="None"/>
+      <Param name="name" val="con1" valType="code" updates="None"/>
+      <Param name="random seed" val="" valType="code" updates="None"/>
+    </LoopInitiator>
+    <Routine name="movetrees1_2"/>
+    <LoopTerminator name="con1"/>
+    <LoopInitiator loopType="TrialHandler" name="trials">
+      <Param name="Selected rows" val="" valType="str" updates="None"/>
+      <Param name="conditions" val="None" valType="str" updates="None"/>
+      <Param name="conditionsFile" val="" valType="str" updates="None"/>
+      <Param name="endPoints" val="[0, 1]" valType="num" updates="None"/>
+      <Param name="isTrials" val="True" valType="bool" updates="None"/>
+      <Param name="loopType" val="random" valType="str" updates="None"/>
+      <Param name="nReps" val="3" valType="code" updates="None"/>
+      <Param name="name" val="trials" valType="code" updates="None"/>
+      <Param name="random seed" val="" valType="code" updates="None"/>
+    </LoopInitiator>
+    <LoopInitiator loopType="TrialHandler" name="reward2">
+      <Param name="Selected rows" val="" valType="str" updates="None"/>
+      <Param name="conditions" val="[OrderedDict([('rewardval', 7.3), ('rewardpos', -0.2)]), OrderedDict([('rewardval', 6.9), ('rewardpos', 0.2)]), OrderedDict([('rewardval', 6.2), ('rewardpos', -0.2)]), OrderedDict([('rewardval', 5.8), ('rewardpos', 0.2)]), OrderedDict([('rewardval', 5.1), ('rewardpos', -0.2)]), OrderedDict([('rewardval', 4.6), ('rewardpos', 0.2)]), OrderedDict([('rewardval', 4.0), ('rewardpos', -0.2)]), OrderedDict([('rewardval', 3.2), ('rewardpos', 0.2)]), OrderedDict([('rewardval', 2.4), ('rewardpos', -0.2)]), OrderedDict([('rewardval', 1.3), ('rewardpos', 0.2)]), OrderedDict([('rewardval', 0.0), ('rewardpos', -0.2)])]" valType="str" updates="None"/>
+      <Param name="conditionsFile" val="reward2.xlsx" valType="str" updates="None"/>
+      <Param name="endPoints" val="[0, 1]" valType="num" updates="None"/>
+      <Param name="isTrials" val="True" valType="bool" updates="None"/>
+      <Param name="loopType" val="sequential" valType="str" updates="None"/>
+      <Param name="nReps" val="1" valType="code" updates="None"/>
+      <Param name="name" val="reward2" valType="code" updates="None"/>
+      <Param name="random seed" val="" valType="code" updates="None"/>
+    </LoopInitiator>
+    <Routine name="rewardframe2"/>
+    <LoopTerminator name="reward2"/>
+    <LoopInitiator loopType="TrialHandler" name="con2">
+      <Param name="Selected rows" val="" valType="str" updates="None"/>
+      <Param name="conditions" val="[OrderedDict([('tree1_p', 0.2), ('tree2_n', 0.0), ('tree3_p', -0.2), ('tree4_n', -0.4), ('tree5_p', -0.6), ('tree6_n', 0.4)]), OrderedDict([('tree1_p', 0.15), ('tree2_n', -0.05), ('tree3_p', -0.25), ('tree4_n', -0.45), ('tree5_p', 0.55), ('tree6_n', 0.35)]), OrderedDict([('tree1_p', 0.1), ('tree2_n', -0.1), ('tree3_p', -0.3), ('tree4_n', -0.5), ('tree5_p', 0.5), ('tree6_n', 0.3)]), OrderedDict([('tree1_p', 0.05), ('tree2_n', -0.15), ('tree3_p', -0.35), ('tree4_n', -0.55), ('tree5_p', 0.45), ('tree6_n', 0.25)]), OrderedDict([('tree1_p', 0.0), ('tree2_n', -0.2), ('tree3_p', -0.4), ('tree4_n', -0.6), ('tree5_p', 0.4), ('tree6_n', 0.2)])]" valType="str" updates="None"/>
+      <Param name="conditionsFile" val="con2.xlsx" valType="str" updates="None"/>
+      <Param name="endPoints" val="[0, 1]" valType="num" updates="None"/>
+      <Param name="isTrials" val="True" valType="bool" updates="None"/>
+      <Param name="loopType" val="sequential" valType="str" updates="None"/>
+      <Param name="nReps" val="1" valType="code" updates="None"/>
+      <Param name="name" val="con2" valType="code" updates="None"/>
+      <Param name="random seed" val="" valType="code" updates="None"/>
+    </LoopInitiator>
+    <Routine name="movetrees1_2"/>
+    <LoopTerminator name="con2"/>
+    <LoopInitiator loopType="TrialHandler" name="reward3">
+      <Param name="Selected rows" val="" valType="str" updates="None"/>
+      <Param name="conditions" val="[OrderedDict([('rewardval', 7.6), ('rewardpos', -0.2)]), OrderedDict([('rewardval', 7.1), ('rewardpos', 0.2)]), OrderedDict([('rewardval', 6.8), ('rewardpos', -0.2)]), OrderedDict([('rewardval', 6.3), ('rewardpos', 0.2)]), OrderedDict([('rewardval', 5.9), ('rewardpos', -0.2)]), OrderedDict([('rewardval', 5.4), ('rewardpos', 0.2)]), OrderedDict([('rewardval', 4.6), ('rewardpos', -0.2)]), OrderedDict([('rewardval', 3.9), ('rewardpos', 0.2)]), OrderedDict([('rewardval', 3.2), ('rewardpos', -0.2)]), OrderedDict([('rewardval', 2.4), ('rewardpos', 0.2)]), OrderedDict([('rewardval', 1.7), ('rewardpos', -0.2)]), OrderedDict([('rewardval', 1.1), ('rewardpos', 0.2)]), OrderedDict([('rewardval', 0.0), ('rewardpos', -0.2)])]" valType="str" updates="None"/>
+      <Param name="conditionsFile" val="reward3.xlsx" valType="str" updates="None"/>
+      <Param name="endPoints" val="[0, 1]" valType="num" updates="None"/>
+      <Param name="isTrials" val="True" valType="bool" updates="None"/>
+      <Param name="loopType" val="sequential" valType="str" updates="None"/>
+      <Param name="nReps" val="1" valType="code" updates="None"/>
+      <Param name="name" val="reward3" valType="code" updates="None"/>
+      <Param name="random seed" val="" valType="code" updates="None"/>
+    </LoopInitiator>
+    <Routine name="rewardframe3"/>
+    <LoopTerminator name="reward3"/>
+    <LoopInitiator loopType="TrialHandler" name="con3">
+      <Param name="Selected rows" val="" valType="str" updates="None"/>
+      <Param name="conditions" val="[OrderedDict([('tree1_p', 0.4), ('tree2_n', 0.2), ('tree3_p', 0.0), ('tree4_n', -0.2), ('tree5_p', -0.6), ('tree6_n', -0.6)]), OrderedDict([('tree1_p', 0.35), ('tree2_n', 0.15), ('tree3_p', -0.05), ('tree4_n', -0.25), ('tree5_p', -0.6), ('tree6_n', 0.55)]), OrderedDict([('tree1_p', 0.3), ('tree2_n', 0.1), ('tree3_p', -0.1), ('tree4_n', -0.3), ('tree5_p', -0.6), ('tree6_n', 0.5)]), OrderedDict([('tree1_p', 0.25), ('tree2_n', 0.05), ('tree3_p', -0.15), ('tree4_n', -0.35), ('tree5_p', -0.6), ('tree6_n', 0.45)]), OrderedDict([('tree1_p', 0.2), ('tree2_n', 0.0), ('tree3_p', -0.2), ('tree4_n', -0.4), ('tree5_p', -0.6), ('tree6_n', 0.4)])]" valType="str" updates="None"/>
+      <Param name="conditionsFile" val="con3.xlsx" valType="str" updates="None"/>
+      <Param name="endPoints" val="[0, 1]" valType="num" updates="None"/>
+      <Param name="isTrials" val="True" valType="bool" updates="None"/>
+      <Param name="loopType" val="sequential" valType="str" updates="None"/>
+      <Param name="nReps" val="1" valType="code" updates="None"/>
+      <Param name="name" val="con3" valType="code" updates="None"/>
+      <Param name="random seed" val="" valType="code" updates="None"/>
+    </LoopInitiator>
+    <Routine name="movetrees1_2"/>
+    <LoopTerminator name="con3"/>
+    <LoopTerminator name="trials"/>
+    <Routine name="end"/>
+  </Flow>
+</PsychoPy2experiment>
