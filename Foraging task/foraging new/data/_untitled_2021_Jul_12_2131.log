@@ -1,0 +1,823 @@
+0.3962 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+18.1174 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [1920, 1080]. Using actual size
+20.3515 	WARNING 	Couldn't measure a consistent frame rate.
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+20.3525 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0., 0., 0.]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fe9350815e0>, gamma=None, gammaErrorPolicy='raise', kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7fe93504c9d0>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+20.3528 	EXP 	window1: mouseVisible = True
+20.3529 	EXP 	window1: recordFrameIntervals = False
+20.5176 	EXP 	window1: recordFrameIntervals = True
+20.6042 	WARNING 	t of last frame was 21.14ms (=1/47)
+20.6876 	WARNING 	t of last frame was 20.33ms (=1/49)
+20.7568 	WARNING 	t of last frame was 20.09ms (=1/49)
+20.8717 	WARNING 	t of last frame was 21.45ms (=1/46)
+20.9530 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+22.1842 	WARNING 	Couldn't measure a consistent frame rate.
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+22.3326 	EXP 	Created introtext = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='introtext', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([0., 0., 0.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+22.3328 	EXP 	window1: mouseVisible = True
+22.3631 	EXP 	Created square_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='images/hollow.png', interpolate=True, mask=None, maskParams=None, name='square_2', opacity=1.0, ori=0.0, pos=array([ 0. , -0.2]), size=array([0.25, 0.25]), texRes=128, units='height', win=Window(...))
+22.3700 	EXP 	Created tree1_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='images/tree.png', interpolate=True, mask=None, maskParams=None, name='tree1_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), texRes=128, units='height', win=Window(...))
+22.3771 	EXP 	Created tree2_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='images/tree.png', interpolate=True, mask=None, maskParams=None, name='tree2_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), texRes=128, units='height', win=Window(...))
+22.3842 	EXP 	Created tree3_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, image='images/tree.png', interpolate=True, mask=None, maskParams=None, name='tree3_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), texRes=128, units='height', win=Window(...))
+22.3915 	EXP 	Created tree4_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, image='images/tree.png', interpolate=True, mask=None, maskParams=None, name='tree4_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), texRes=128, units='height', win=Window(...))
+22.3916 	EXP 	window1: mouseVisible = True
+22.4196 	EXP 	Created square_14 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='images/hollow.png', interpolate=True, mask=None, maskParams=None, name='square_14', opacity=1.0, ori=0.0, pos=array([ 0. , -0.2]), size=array([0.25, 0.25]), texRes=128, units='height', win=Window(...))
+22.4285 	EXP 	Created tree1_14 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='images/tree.png', interpolate=True, mask=None, maskParams=None, name='tree1_14', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), texRes=128, units='height', win=Window(...))
+22.4398 	EXP 	Created tree2_14 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='images/tree.png', interpolate=True, mask=None, maskParams=None, name='tree2_14', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), texRes=128, units='height', win=Window(...))
+22.4451 	EXP 	Created tree3_14 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, image='images/tree.png', interpolate=True, mask=None, maskParams=None, name='tree3_14', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), texRes=128, units='height', win=Window(...))
+22.4497 	EXP 	Created tree4_14 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, image='images/tree.png', interpolate=True, mask=None, maskParams=None, name='tree4_14', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), texRes=128, units='height', win=Window(...))
+22.4626 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='text_2', opacity=1.0, ori=0, pos=array([ 0.  , -0.05]), rgb=array([0., 0., 0.]), text='Start foraging!', units='height', win=Window(...), wrapWidth=1)
+22.4684 	EXP 	Created tree1_12 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='images/tree.png', interpolate=True, mask=None, maskParams=None, name='tree1_12', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), texRes=128, units='height', win=Window(...))
+22.4745 	EXP 	Created tree2_12 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='images/tree.png', interpolate=True, mask=None, maskParams=None, name='tree2_12', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), texRes=128, units='height', win=Window(...))
+22.4811 	EXP 	Created tree3_12 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='images/tree.png', interpolate=True, mask=None, maskParams=None, name='tree3_12', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), texRes=128, units='height', win=Window(...))
+22.4877 	EXP 	Created tree4_12 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='images/tree.png', interpolate=True, mask=None, maskParams=None, name='tree4_12', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), texRes=128, units='height', win=Window(...))
+22.5160 	EXP 	Created square_12 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, image='images/hollow.png', interpolate=True, mask=None, maskParams=None, name='square_12', opacity=1.0, ori=0.0, pos=array([ 0. , -0.2]), size=array([0.25, 0.25]), texRes=128, units='height', win=Window(...))
+22.5330 	EXP 	Created wait_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.02, italic=False, languageStyle='LTR', name='wait_3', opacity=1.0, ori=0, pos=array([-0.6 , -0.08]), rgb=array([0., 0., 0.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+22.5425 	EXP 	Created forward_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, image='images/arrow.png', interpolate=True, mask=None, maskParams=None, name='forward_2', opacity=1.0, ori=0.0, pos=array([ 0.5, -0.2]), size=array([0.1, 0.1]), texRes=128, units='height', win=Window(...))
+22.5501 	EXP 	Created squaree_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-7.0, flipHoriz=False, flipVert=False, image='images/square.png', interpolate=True, mask=None, maskParams=None, name='squaree_2', opacity=1.0, ori=0.0, pos=array([ 0.5, -0.2]), size=array([0.15, 0.15]), texRes=128, units='height', win=Window(...))
+22.5563 	EXP 	Created tree1_4 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='images/tree.png', interpolate=True, mask=None, maskParams=None, name='tree1_4', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), texRes=128, units='height', win=Window(...))
+22.5637 	EXP 	Created tree2_4 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='images/tree.png', interpolate=True, mask=None, maskParams=None, name='tree2_4', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), texRes=128, units='height', win=Window(...))
+22.5702 	EXP 	Created tree3_4 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='images/tree.png', interpolate=True, mask=None, maskParams=None, name='tree3_4', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), texRes=128, units='height', win=Window(...))
+22.5765 	EXP 	Created tree4_4 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='images/tree.png', interpolate=True, mask=None, maskParams=None, name='tree4_4', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), texRes=128, units='height', win=Window(...))
+22.6036 	EXP 	Created square_4 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, image='images/hollow.png', interpolate=True, mask=None, maskParams=None, name='square_4', opacity=1.0, ori=0.0, pos=array([ 0. , -0.2]), size=array([0.25, 0.25]), texRes=128, units='height', win=Window(...))
+22.6113 	EXP 	Created reward_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='green', colorSpace='named', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='reward_2', opacity=1.0, ori=0, pos=array([-0.6 , -0.08]), rgb=array([  0., 128.,   0.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+22.6114 	EXP 	window1: mouseVisible = True
+22.6204 	EXP 	Created forward = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-7.0, flipHoriz=False, flipVert=False, image='images/arrow.png', interpolate=True, mask=None, maskParams=None, name='forward', opacity=1.0, ori=0.0, pos=array([ 0.5, -0.2]), size=array([0.1, 0.1]), texRes=128, units='height', win=Window(...))
+22.6299 	EXP 	Created squaree = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-8.0, flipHoriz=False, flipVert=False, image='images/square.png', interpolate=True, mask=None, maskParams=None, name='squaree', opacity=1.0, ori=0.0, pos=array([ 0.5, -0.2]), size=array([0.15, 0.15]), texRes=128, units='height', win=Window(...))
+22.6303 	EXP 	window1: mouseVisible = True
+22.6383 	EXP 	Created tree1_6 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='images/tree.png', interpolate=True, mask=None, maskParams=None, name='tree1_6', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), texRes=128, units='height', win=Window(...))
+22.6432 	EXP 	Created tree2_6 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='images/tree.png', interpolate=True, mask=None, maskParams=None, name='tree2_6', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), texRes=128, units='height', win=Window(...))
+22.6481 	EXP 	Created tree3_6 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='images/tree.png', interpolate=True, mask=None, maskParams=None, name='tree3_6', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), texRes=128, units='height', win=Window(...))
+22.6533 	EXP 	Created tree4_6 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='images/tree.png', interpolate=True, mask=None, maskParams=None, name='tree4_6', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), texRes=128, units='height', win=Window(...))
+22.6823 	EXP 	Created square_6 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, image='images/hollow.png', interpolate=True, mask=None, maskParams=None, name='square_6', opacity=1.0, ori=0.0, pos=array([ 0. , -0.2]), size=array([0.25, 0.25]), texRes=128, units='height', win=Window(...))
+22.6896 	EXP 	Created tree1_13 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='images/tree.png', interpolate=True, mask=None, maskParams=None, name='tree1_13', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), texRes=128, units='height', win=Window(...))
+22.6968 	EXP 	Created tree2_13 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='images/tree.png', interpolate=True, mask=None, maskParams=None, name='tree2_13', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), texRes=128, units='height', win=Window(...))
+22.7046 	EXP 	Created tree3_13 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='images/tree.png', interpolate=True, mask=None, maskParams=None, name='tree3_13', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), texRes=128, units='height', win=Window(...))
+22.7118 	EXP 	Created tree4_13 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='images/tree.png', interpolate=True, mask=None, maskParams=None, name='tree4_13', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), texRes=128, units='height', win=Window(...))
+22.7391 	EXP 	Created square_13 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, image='images/hollow.png', interpolate=True, mask=None, maskParams=None, name='square_13', opacity=1.0, ori=0.0, pos=array([ 0. , -0.2]), size=array([0.25, 0.25]), texRes=128, units='height', win=Window(...))
+22.7422 	EXP 	Created wait = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.02, italic=False, languageStyle='LTR', name='wait', opacity=1.0, ori=0, pos=array([ 0.6 , -0.08]), rgb=array([0., 0., 0.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+22.7515 	EXP 	Created forward_3 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, image='images/arrow.png', interpolate=True, mask=None, maskParams=None, name='forward_3', opacity=1.0, ori=0.0, pos=array([-0.5, -0.2]), size=array([0.1, 0.1]), texRes=128, units='height', win=Window(...))
+22.7623 	EXP 	Created tree1_5 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='images/tree.png', interpolate=True, mask=None, maskParams=None, name='tree1_5', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), texRes=128, units='height', win=Window(...))
+22.7707 	EXP 	Created tree2_5 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='images/tree.png', interpolate=True, mask=None, maskParams=None, name='tree2_5', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), texRes=128, units='height', win=Window(...))
+22.7789 	EXP 	Created tree3_5 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='images/tree.png', interpolate=True, mask=None, maskParams=None, name='tree3_5', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), texRes=128, units='height', win=Window(...))
+22.7864 	EXP 	Created tree4_5 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='images/tree.png', interpolate=True, mask=None, maskParams=None, name='tree4_5', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), texRes=128, units='height', win=Window(...))
+22.8138 	EXP 	Created square_5 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, image='images/hollow.png', interpolate=True, mask=None, maskParams=None, name='square_5', opacity=1.0, ori=0.0, pos=array([ 0. , -0.2]), size=array([0.25, 0.25]), texRes=128, units='height', win=Window(...))
+22.8186 	EXP 	Created reward_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='green', colorSpace='named', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='reward_3', opacity=1.0, ori=0, pos=array([ 0.6 , -0.08]), rgb=array([  0., 128.,   0.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+22.8187 	EXP 	window1: mouseVisible = True
+22.8288 	EXP 	Created forward_7 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-9.0, flipHoriz=False, flipVert=False, image='images/arrow.png', interpolate=True, mask=None, maskParams=None, name='forward_7', opacity=1.0, ori=0.0, pos=array([-0.5, -0.2]), size=array([0.1, 0.1]), texRes=128, units='height', win=Window(...))
+22.8401 	EXP 	Created tree1_8 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='images/tree.png', interpolate=True, mask=None, maskParams=None, name='tree1_8', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), texRes=128, units='height', win=Window(...))
+22.8452 	EXP 	Created tree2_8 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='images/tree.png', interpolate=True, mask=None, maskParams=None, name='tree2_8', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), texRes=128, units='height', win=Window(...))
+22.8502 	EXP 	Created tree3_8 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='images/tree.png', interpolate=True, mask=None, maskParams=None, name='tree3_8', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), texRes=128, units='height', win=Window(...))
+22.8560 	EXP 	Created tree4_8 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='images/tree.png', interpolate=True, mask=None, maskParams=None, name='tree4_8', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), texRes=128, units='height', win=Window(...))
+22.8827 	EXP 	Created square_8 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, image='images/hollow.png', interpolate=True, mask=None, maskParams=None, name='square_8', opacity=1.0, ori=0.0, pos=array([ 0. , -0.2]), size=array([0.25, 0.25]), texRes=128, units='height', win=Window(...))
+22.8898 	EXP 	Created tree1_15 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='images/tree.png', interpolate=True, mask=None, maskParams=None, name='tree1_15', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), texRes=128, units='height', win=Window(...))
+22.8984 	EXP 	Created tree2_15 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='images/tree.png', interpolate=True, mask=None, maskParams=None, name='tree2_15', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), texRes=128, units='height', win=Window(...))
+22.9059 	EXP 	Created tree3_15 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='images/tree.png', interpolate=True, mask=None, maskParams=None, name='tree3_15', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), texRes=128, units='height', win=Window(...))
+22.9134 	EXP 	Created tree4_15 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='images/tree.png', interpolate=True, mask=None, maskParams=None, name='tree4_15', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), texRes=128, units='height', win=Window(...))
+22.9403 	EXP 	Created square_15 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, image='images/hollow.png', interpolate=True, mask=None, maskParams=None, name='square_15', opacity=1.0, ori=0.0, pos=array([ 0. , -0.2]), size=array([0.25, 0.25]), texRes=128, units='height', win=Window(...))
+22.9432 	EXP 	Created wait_4 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.02, italic=False, languageStyle='LTR', name='wait_4', opacity=1.0, ori=0, pos=array([-0.6 , -0.08]), rgb=array([0., 0., 0.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+22.9513 	EXP 	Created forward_4 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, image='images/arrow.png', interpolate=True, mask=None, maskParams=None, name='forward_4', opacity=1.0, ori=0.0, pos=array([ 0.5, -0.2]), size=array([0.1, 0.1]), texRes=128, units='height', win=Window(...))
+22.9612 	EXP 	Created tree1_7 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='images/tree.png', interpolate=True, mask=None, maskParams=None, name='tree1_7', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), texRes=128, units='height', win=Window(...))
+22.9683 	EXP 	Created tree2_7 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='images/tree.png', interpolate=True, mask=None, maskParams=None, name='tree2_7', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), texRes=128, units='height', win=Window(...))
+22.9768 	EXP 	Created tree3_7 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='images/tree.png', interpolate=True, mask=None, maskParams=None, name='tree3_7', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), texRes=128, units='height', win=Window(...))
+22.9846 	EXP 	Created tree4_7 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='images/tree.png', interpolate=True, mask=None, maskParams=None, name='tree4_7', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), texRes=128, units='height', win=Window(...))
+23.0108 	EXP 	Created square_7 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, image='images/hollow.png', interpolate=True, mask=None, maskParams=None, name='square_7', opacity=1.0, ori=0.0, pos=array([ 0. , -0.2]), size=array([0.25, 0.25]), texRes=128, units='height', win=Window(...))
+23.0155 	EXP 	Created reward_4 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='green', colorSpace='named', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='reward_4', opacity=1.0, ori=0, pos=array([-0.6 , -0.08]), rgb=array([  0., 128.,   0.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+23.0156 	EXP 	window1: mouseVisible = True
+23.0249 	EXP 	Created forward_8 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-9.0, flipHoriz=False, flipVert=False, image='images/arrow.png', interpolate=True, mask=None, maskParams=None, name='forward_8', opacity=1.0, ori=0.0, pos=array([ 0.5, -0.2]), size=array([0.1, 0.1]), texRes=128, units='height', win=Window(...))
+23.0313 	EXP 	Created tree1_9 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='images/tree.png', interpolate=True, mask=None, maskParams=None, name='tree1_9', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), texRes=128, units='height', win=Window(...))
+23.0393 	EXP 	Created tree2_9 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='images/tree.png', interpolate=True, mask=None, maskParams=None, name='tree2_9', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), texRes=128, units='height', win=Window(...))
+23.0456 	EXP 	Created tree3_9 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='images/tree.png', interpolate=True, mask=None, maskParams=None, name='tree3_9', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), texRes=128, units='height', win=Window(...))
+23.0510 	EXP 	Created tree4_9 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='images/tree.png', interpolate=True, mask=None, maskParams=None, name='tree4_9', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), texRes=128, units='height', win=Window(...))
+23.0760 	EXP 	Created square_9 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, image='images/hollow.png', interpolate=True, mask=None, maskParams=None, name='square_9', opacity=1.0, ori=0.0, pos=array([ 0. , -0.2]), size=array([0.25, 0.25]), texRes=128, units='height', win=Window(...))
+23.0847 	EXP 	Created tree1_16 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='images/tree.png', interpolate=True, mask=None, maskParams=None, name='tree1_16', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), texRes=128, units='height', win=Window(...))
+23.0921 	EXP 	Created tree2_16 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='images/tree.png', interpolate=True, mask=None, maskParams=None, name='tree2_16', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), texRes=128, units='height', win=Window(...))
+23.0994 	EXP 	Created tree3_16 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='images/tree.png', interpolate=True, mask=None, maskParams=None, name='tree3_16', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), texRes=128, units='height', win=Window(...))
+23.1081 	EXP 	Created tree4_16 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='images/tree.png', interpolate=True, mask=None, maskParams=None, name='tree4_16', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), texRes=128, units='height', win=Window(...))
+23.1385 	EXP 	Created square_16 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, image='images/hollow.png', interpolate=True, mask=None, maskParams=None, name='square_16', opacity=1.0, ori=0.0, pos=array([ 0. , -0.2]), size=array([0.25, 0.25]), texRes=128, units='height', win=Window(...))
+23.1445 	EXP 	Created wait_5 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.02, italic=False, languageStyle='LTR', name='wait_5', opacity=1.0, ori=0, pos=array([ 0.6 , -0.08]), rgb=array([0., 0., 0.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+23.1520 	EXP 	Created forward_5 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, image='images/arrow.png', interpolate=True, mask=None, maskParams=None, name='forward_5', opacity=1.0, ori=0.0, pos=array([-0.5, -0.2]), size=array([0.1, 0.1]), texRes=128, units='height', win=Window(...))
+23.1623 	EXP 	Created tree1_10 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='images/tree.png', interpolate=True, mask=None, maskParams=None, name='tree1_10', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), texRes=128, units='height', win=Window(...))
+23.1706 	EXP 	Created tree2_10 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='images/tree.png', interpolate=True, mask=None, maskParams=None, name='tree2_10', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), texRes=128, units='height', win=Window(...))
+23.1802 	EXP 	Created tree3_10 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='images/tree.png', interpolate=True, mask=None, maskParams=None, name='tree3_10', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), texRes=128, units='height', win=Window(...))
+23.1898 	EXP 	Created tree4_10 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='images/tree.png', interpolate=True, mask=None, maskParams=None, name='tree4_10', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), texRes=128, units='height', win=Window(...))
+23.2184 	EXP 	Created square_10 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, image='images/hollow.png', interpolate=True, mask=None, maskParams=None, name='square_10', opacity=1.0, ori=0.0, pos=array([ 0. , -0.2]), size=array([0.25, 0.25]), texRes=128, units='height', win=Window(...))
+23.2234 	EXP 	Created reward_5 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='green', colorSpace='named', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='reward_5', opacity=1.0, ori=0, pos=array([ 0.6 , -0.08]), rgb=array([  0., 128.,   0.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+23.2234 	EXP 	window1: mouseVisible = True
+23.2332 	EXP 	Created forward_9 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-9.0, flipHoriz=False, flipVert=False, image='images/arrow.png', interpolate=True, mask=None, maskParams=None, name='forward_9', opacity=1.0, ori=0.0, pos=array([-0.5, -0.2]), size=array([0.1, 0.1]), texRes=128, units='height', win=Window(...))
+23.2409 	EXP 	Created tree1_8 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='images/tree.png', interpolate=True, mask=None, maskParams=None, name='tree1_8', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), texRes=128, units='height', win=Window(...))
+23.2475 	EXP 	Created tree2_8 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='images/tree.png', interpolate=True, mask=None, maskParams=None, name='tree2_8', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), texRes=128, units='height', win=Window(...))
+23.2519 	EXP 	Created tree3_8 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='images/tree.png', interpolate=True, mask=None, maskParams=None, name='tree3_8', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), texRes=128, units='height', win=Window(...))
+23.2563 	EXP 	Created tree4_8 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='images/tree.png', interpolate=True, mask=None, maskParams=None, name='tree4_8', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), texRes=128, units='height', win=Window(...))
+23.2835 	EXP 	Created square_8 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, image='images/hollow.png', interpolate=True, mask=None, maskParams=None, name='square_8', opacity=1.0, ori=0.0, pos=array([ 0. , -0.2]), size=array([0.25, 0.25]), texRes=128, units='height', win=Window(...))
+23.2911 	EXP 	Created tree1_17 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='images/tree.png', interpolate=True, mask=None, maskParams=None, name='tree1_17', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), texRes=128, units='height', win=Window(...))
+23.2983 	EXP 	Created tree2_17 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='images/tree.png', interpolate=True, mask=None, maskParams=None, name='tree2_17', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), texRes=128, units='height', win=Window(...))
+23.3056 	EXP 	Created tree3_17 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='images/tree.png', interpolate=True, mask=None, maskParams=None, name='tree3_17', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), texRes=128, units='height', win=Window(...))
+23.3130 	EXP 	Created tree4_17 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='images/tree.png', interpolate=True, mask=None, maskParams=None, name='tree4_17', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), texRes=128, units='height', win=Window(...))
+23.3360 	EXP 	Created square_17 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, image='images/hollow.png', interpolate=True, mask=None, maskParams=None, name='square_17', opacity=1.0, ori=0.0, pos=array([ 0. , -0.2]), size=array([0.25, 0.25]), texRes=128, units='height', win=Window(...))
+23.3405 	EXP 	Created wait_6 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.02, italic=False, languageStyle='LTR', name='wait_6', opacity=1.0, ori=0, pos=array([-0.6 , -0.08]), rgb=array([0., 0., 0.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+23.3518 	EXP 	Created forward_6 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, image='images/arrow.png', interpolate=True, mask=None, maskParams=None, name='forward_6', opacity=1.0, ori=0.0, pos=array([ 0.5, -0.2]), size=array([0.1, 0.1]), texRes=128, units='height', win=Window(...))
+23.3628 	EXP 	Created tree1_11 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='images/tree.png', interpolate=True, mask=None, maskParams=None, name='tree1_11', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), texRes=128, units='height', win=Window(...))
+23.3691 	EXP 	Created tree2_11 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='images/tree.png', interpolate=True, mask=None, maskParams=None, name='tree2_11', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), texRes=128, units='height', win=Window(...))
+23.3765 	EXP 	Created tree3_11 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='images/tree.png', interpolate=True, mask=None, maskParams=None, name='tree3_11', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), texRes=128, units='height', win=Window(...))
+23.3840 	EXP 	Created tree4_11 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='images/tree.png', interpolate=True, mask=None, maskParams=None, name='tree4_11', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), texRes=128, units='height', win=Window(...))
+23.4105 	EXP 	Created square_11 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, image='images/hollow.png', interpolate=True, mask=None, maskParams=None, name='square_11', opacity=1.0, ori=0.0, pos=array([ 0. , -0.2]), size=array([0.25, 0.25]), texRes=128, units='height', win=Window(...))
+23.4143 	EXP 	Created reward_6 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='green', colorSpace='named', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='reward_6', opacity=1.0, ori=0, pos=array([-0.6 , -0.08]), rgb=array([  0., 128.,   0.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+23.4144 	EXP 	window1: mouseVisible = True
+23.4238 	EXP 	Created forward_10 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-9.0, flipHoriz=False, flipVert=False, image='images/arrow.png', interpolate=True, mask=None, maskParams=None, name='forward_10', opacity=1.0, ori=0.0, pos=array([ 0.5, -0.2]), size=array([0.1, 0.1]), texRes=128, units='height', win=Window(...))
+23.4311 	EXP 	Created tree1_9 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='images/tree.png', interpolate=True, mask=None, maskParams=None, name='tree1_9', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), texRes=128, units='height', win=Window(...))
+23.4381 	EXP 	Created tree2_9 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='images/tree.png', interpolate=True, mask=None, maskParams=None, name='tree2_9', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), texRes=128, units='height', win=Window(...))
+23.4456 	EXP 	Created tree3_9 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='images/tree.png', interpolate=True, mask=None, maskParams=None, name='tree3_9', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), texRes=128, units='height', win=Window(...))
+23.4507 	EXP 	Created tree4_9 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='images/tree.png', interpolate=True, mask=None, maskParams=None, name='tree4_9', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), texRes=128, units='height', win=Window(...))
+23.4735 	EXP 	Created square_9 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, image='images/hollow.png', interpolate=True, mask=None, maskParams=None, name='square_9', opacity=1.0, ori=0.0, pos=array([ 0. , -0.2]), size=array([0.25, 0.25]), texRes=128, units='height', win=Window(...))
+23.4824 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([0., 0., 0.]), text='The end~', units='height', win=Window(...), wrapWidth=1)
+23.5023 	EXP 	introtext: autoDraw = True
+35.5368 	EXP 	introtext: autoDraw = False
+35.5368 	EXP 	tree1_2: pos = array([-0.5, -0.2])
+35.5368 	EXP 	tree2_2: pos = array([0.5, 0.2])
+35.5368 	EXP 	tree3_2: pos = array([-0.5,  0.6])
+35.5368 	EXP 	tree4_2: pos = array([ 0.5, -0.6])
+35.5368 	EXP 	square_2: autoDraw = True
+35.5368 	EXP 	tree1_2: autoDraw = True
+35.5368 	EXP 	tree2_2: autoDraw = True
+35.5368 	EXP 	tree3_2: autoDraw = True
+35.5368 	EXP 	tree4_2: autoDraw = True
+40.0538 	DATA 	Mouse: Left button down, pos=(966,300)
+40.1298 	EXP 	square_2: autoDraw = False
+40.1298 	EXP 	tree1_2: autoDraw = False
+40.1298 	EXP 	tree2_2: autoDraw = False
+40.1298 	EXP 	tree3_2: autoDraw = False
+40.1298 	EXP 	tree4_2: autoDraw = False
+40.1298 	EXP 	tree1_14: pos = array([-0.5, -0.2])
+40.1298 	EXP 	tree2_14: pos = array([0.5, 0.2])
+40.1298 	EXP 	tree3_14: pos = array([-0.5,  0.6])
+40.1298 	EXP 	tree4_14: pos = array([ 0.5, -0.6])
+40.1298 	EXP 	square_14: autoDraw = True
+40.1298 	EXP 	tree1_14: autoDraw = True
+40.1298 	EXP 	tree2_14: autoDraw = True
+40.1298 	EXP 	tree3_14: autoDraw = True
+40.1298 	EXP 	tree4_14: autoDraw = True
+40.1298 	EXP 	text_2: autoDraw = True
+40.1633 	DATA 	Mouse:  Left button up, pos=(966,300)
+43.1643 	EXP 	text_2: autoDraw = False
+43.7677 	DATA 	Mouse: Left button down, pos=(397,338)
+43.8322 	EXP 	Imported reward.xlsx as conditions, 13 conditions, 5 params
+43.8327 	EXP 	Created sequence: sequential, trialTypes=13, nReps=1, seed=None
+43.8332 	EXP 	New trial (rep=0, index=0): OrderedDict([('rewardval1', 7.5), ('rewardval2', 7.3), ('rewardval3', 7.6), ('rewardval4', 7.1), ('rewardval5', 7.4)])
+43.8695 	DATA 	Mouse:  Left button up, pos=(397,338)
+43.8771 	EXP 	square_14: autoDraw = False
+43.8771 	EXP 	tree1_14: autoDraw = False
+43.8771 	EXP 	tree2_14: autoDraw = False
+43.8771 	EXP 	tree3_14: autoDraw = False
+43.8771 	EXP 	tree4_14: autoDraw = False
+43.8771 	EXP 	text_2: autoDraw = False
+43.8771 	EXP 	tree1_12: pos = array([-0.5, -0.2])
+43.8771 	EXP 	tree2_12: pos = array([0.5, 0.2])
+43.8771 	EXP 	tree3_12: pos = array([-0.5,  0.6])
+43.8771 	EXP 	tree4_12: pos = array([ 0.5, -0.6])
+43.8771 	EXP 	wait_3: text = 'wait'
+43.8771 	EXP 	tree1_12: autoDraw = True
+43.8771 	EXP 	tree2_12: autoDraw = True
+43.8771 	EXP 	tree3_12: autoDraw = True
+43.8771 	EXP 	tree4_12: autoDraw = True
+43.8771 	EXP 	square_12: autoDraw = True
+43.8771 	EXP 	wait_3: autoDraw = True
+43.8771 	EXP 	forward_2: autoDraw = True
+43.8771 	EXP 	squaree_2: autoDraw = True
+43.8771 	EXP 	squaree_2: autoDraw = False
+44.8758 	EXP 	tree1_12: autoDraw = False
+44.8758 	EXP 	tree2_12: autoDraw = False
+44.8758 	EXP 	tree3_12: autoDraw = False
+44.8758 	EXP 	tree4_12: autoDraw = False
+44.8758 	EXP 	square_12: autoDraw = False
+44.8758 	EXP 	wait_3: autoDraw = False
+44.8758 	EXP 	forward_2: autoDraw = False
+44.8758 	EXP 	squaree_2: autoDraw = False
+44.8758 	EXP 	tree1_4: pos = array([-0.5, -0.2])
+44.8758 	EXP 	tree2_4: pos = array([0.5, 0.2])
+44.8758 	EXP 	tree3_4: pos = array([-0.5,  0.6])
+44.8758 	EXP 	tree4_4: pos = array([ 0.5, -0.6])
+44.8758 	EXP 	reward_2: text = 7.5
+44.8758 	EXP 	tree1_4: autoDraw = True
+44.8758 	EXP 	tree2_4: autoDraw = True
+44.8758 	EXP 	tree3_4: autoDraw = True
+44.8758 	EXP 	tree4_4: autoDraw = True
+44.8758 	EXP 	square_4: autoDraw = True
+44.8758 	EXP 	reward_2: autoDraw = True
+44.8758 	EXP 	forward: autoDraw = True
+44.8758 	EXP 	squaree: autoDraw = True
+44.8758 	EXP 	squaree: autoDraw = False
+49.6049 	DATA 	Mouse: Left button down, pos=(437,339)
+49.7462 	DATA 	Mouse:  Left button up, pos=(437,339)
+51.1048 	DATA 	Mouse: Left button down, pos=(410,339)
+51.2189 	DATA 	Mouse:  Left button up, pos=(410,339)
+52.1061 	DATA 	Mouse: Left button down, pos=(410,339)
+52.2113 	DATA 	Mouse:  Left button up, pos=(410,339)
+52.3534 	DATA 	Mouse: Left button down, pos=(410,339)
+52.4302 	EXP 	New trial (rep=0, index=1): OrderedDict([('rewardval1', 7.1), ('rewardval2', 6.9), ('rewardval3', 7.1), ('rewardval4', 6.6), ('rewardval5', 6.8)])
+52.4633 	DATA 	Mouse:  Left button up, pos=(410,339)
+52.4714 	EXP 	tree1_4: autoDraw = False
+52.4714 	EXP 	tree2_4: autoDraw = False
+52.4714 	EXP 	tree3_4: autoDraw = False
+52.4714 	EXP 	tree4_4: autoDraw = False
+52.4714 	EXP 	square_4: autoDraw = False
+52.4714 	EXP 	reward_2: autoDraw = False
+52.4714 	EXP 	forward: autoDraw = False
+52.4714 	EXP 	squaree: autoDraw = False
+52.4714 	EXP 	tree1_12: pos = array([-0.5, -0.2])
+52.4714 	EXP 	tree2_12: pos = array([0.5, 0.2])
+52.4714 	EXP 	tree3_12: pos = array([-0.5,  0.6])
+52.4714 	EXP 	tree4_12: pos = array([ 0.5, -0.6])
+52.4714 	EXP 	wait_3: text = 'wait'
+52.4714 	EXP 	tree1_12: autoDraw = True
+52.4714 	EXP 	tree2_12: autoDraw = True
+52.4714 	EXP 	tree3_12: autoDraw = True
+52.4714 	EXP 	tree4_12: autoDraw = True
+52.4714 	EXP 	square_12: autoDraw = True
+52.4714 	EXP 	wait_3: autoDraw = True
+52.4714 	EXP 	forward_2: autoDraw = True
+52.4714 	EXP 	squaree_2: autoDraw = True
+52.4714 	EXP 	squaree_2: autoDraw = False
+52.5463 	DATA 	Mouse: Left button down, pos=(410,339)
+52.6285 	DATA 	Mouse:  Left button up, pos=(410,339)
+53.5054 	EXP 	tree1_12: autoDraw = False
+53.5054 	EXP 	tree2_12: autoDraw = False
+53.5054 	EXP 	tree3_12: autoDraw = False
+53.5054 	EXP 	tree4_12: autoDraw = False
+53.5054 	EXP 	square_12: autoDraw = False
+53.5054 	EXP 	wait_3: autoDraw = False
+53.5054 	EXP 	forward_2: autoDraw = False
+53.5054 	EXP 	squaree_2: autoDraw = False
+53.5054 	EXP 	tree1_4: pos = array([-0.5, -0.2])
+53.5054 	EXP 	tree2_4: pos = array([0.5, 0.2])
+53.5054 	EXP 	tree3_4: pos = array([-0.5,  0.6])
+53.5054 	EXP 	tree4_4: pos = array([ 0.5, -0.6])
+53.5054 	EXP 	reward_2: text = 7.1
+53.5054 	EXP 	tree1_4: autoDraw = True
+53.5054 	EXP 	tree2_4: autoDraw = True
+53.5054 	EXP 	tree3_4: autoDraw = True
+53.5054 	EXP 	tree4_4: autoDraw = True
+53.5054 	EXP 	square_4: autoDraw = True
+53.5054 	EXP 	reward_2: autoDraw = True
+53.5054 	EXP 	forward: autoDraw = True
+53.5054 	EXP 	squaree: autoDraw = True
+53.5054 	EXP 	squaree: autoDraw = False
+57.3399 	DATA 	Mouse: Left button down, pos=(434,346)
+57.4135 	EXP 	New trial (rep=0, index=2): OrderedDict([('rewardval1', 6.2), ('rewardval2', 6.2), ('rewardval3', 6.8), ('rewardval4', 6.1), ('rewardval5', 6.1)])
+57.4545 	EXP 	tree1_4: autoDraw = False
+57.4545 	EXP 	tree2_4: autoDraw = False
+57.4545 	EXP 	tree3_4: autoDraw = False
+57.4545 	EXP 	tree4_4: autoDraw = False
+57.4545 	EXP 	square_4: autoDraw = False
+57.4545 	EXP 	reward_2: autoDraw = False
+57.4545 	EXP 	forward: autoDraw = False
+57.4545 	EXP 	squaree: autoDraw = False
+57.4545 	EXP 	tree1_12: pos = array([-0.5, -0.2])
+57.4545 	EXP 	tree2_12: pos = array([0.5, 0.2])
+57.4545 	EXP 	tree3_12: pos = array([-0.5,  0.6])
+57.4545 	EXP 	tree4_12: pos = array([ 0.5, -0.6])
+57.4545 	EXP 	wait_3: text = 'wait'
+57.4545 	EXP 	tree1_12: autoDraw = True
+57.4545 	EXP 	tree2_12: autoDraw = True
+57.4545 	EXP 	tree3_12: autoDraw = True
+57.4545 	EXP 	tree4_12: autoDraw = True
+57.4545 	EXP 	square_12: autoDraw = True
+57.4545 	EXP 	wait_3: autoDraw = True
+57.4545 	EXP 	forward_2: autoDraw = True
+57.4545 	EXP 	squaree_2: autoDraw = True
+57.4545 	EXP 	squaree_2: autoDraw = False
+57.4877 	DATA 	Mouse:  Left button up, pos=(434,346)
+58.4948 	EXP 	tree1_12: autoDraw = False
+58.4948 	EXP 	tree2_12: autoDraw = False
+58.4948 	EXP 	tree3_12: autoDraw = False
+58.4948 	EXP 	tree4_12: autoDraw = False
+58.4948 	EXP 	square_12: autoDraw = False
+58.4948 	EXP 	wait_3: autoDraw = False
+58.4948 	EXP 	forward_2: autoDraw = False
+58.4948 	EXP 	squaree_2: autoDraw = False
+58.4948 	EXP 	tree1_4: pos = array([-0.5, -0.2])
+58.4948 	EXP 	tree2_4: pos = array([0.5, 0.2])
+58.4948 	EXP 	tree3_4: pos = array([-0.5,  0.6])
+58.4948 	EXP 	tree4_4: pos = array([ 0.5, -0.6])
+58.4948 	EXP 	reward_2: text = 6.2
+58.4948 	EXP 	tree1_4: autoDraw = True
+58.4948 	EXP 	tree2_4: autoDraw = True
+58.4948 	EXP 	tree3_4: autoDraw = True
+58.4948 	EXP 	tree4_4: autoDraw = True
+58.4948 	EXP 	square_4: autoDraw = True
+58.4948 	EXP 	reward_2: autoDraw = True
+58.4948 	EXP 	forward: autoDraw = True
+58.4948 	EXP 	squaree: autoDraw = True
+58.4948 	EXP 	squaree: autoDraw = False
+87.3245 	DATA 	Keypress: space
+87.4142 	EXP 	Imported pos.xlsx as conditions, 9 conditions, 4 params
+87.4144 	EXP 	Created sequence: sequential, trialTypes=9, nReps=1, seed=None
+87.4147 	EXP 	New trial (rep=0, index=0): OrderedDict([('tree1_n', -0.2), ('tree2_p', 0.2), ('tree3_n', 0.6), ('tree4_p', -0.6)])
+87.4573 	EXP 	tree1_4: autoDraw = False
+87.4573 	EXP 	tree2_4: autoDraw = False
+87.4573 	EXP 	tree3_4: autoDraw = False
+87.4573 	EXP 	tree4_4: autoDraw = False
+87.4573 	EXP 	square_4: autoDraw = False
+87.4573 	EXP 	reward_2: autoDraw = False
+87.4573 	EXP 	forward: autoDraw = False
+87.4573 	EXP 	squaree: autoDraw = False
+87.4573 	EXP 	tree1_6: pos = array([-0.5, -0.2])
+87.4573 	EXP 	tree2_6: pos = array([0.5, 0.2])
+87.4573 	EXP 	tree3_6: pos = array([-0.5,  0.6])
+87.4573 	EXP 	tree4_6: pos = array([ 0.5, -0.6])
+87.4573 	EXP 	tree1_6: autoDraw = True
+87.4573 	EXP 	tree2_6: autoDraw = True
+87.4573 	EXP 	tree3_6: autoDraw = True
+87.4573 	EXP 	tree4_6: autoDraw = True
+87.4573 	EXP 	square_6: autoDraw = True
+87.9031 	EXP 	New trial (rep=0, index=1): OrderedDict([('tree1_n', -0.25), ('tree2_p', 0.15), ('tree3_n', 0.55), ('tree4_p', -0.6)])
+87.9455 	EXP 	tree1_6: autoDraw = False
+87.9455 	EXP 	tree2_6: autoDraw = False
+87.9455 	EXP 	tree3_6: autoDraw = False
+87.9455 	EXP 	tree4_6: autoDraw = False
+87.9455 	EXP 	square_6: autoDraw = False
+87.9455 	EXP 	tree1_6: pos = array([-0.5 , -0.25])
+87.9455 	EXP 	tree2_6: pos = array([0.5 , 0.15])
+87.9455 	EXP 	tree3_6: pos = array([-0.5 ,  0.55])
+87.9455 	EXP 	tree4_6: pos = array([ 0.5, -0.6])
+87.9455 	EXP 	tree1_6: autoDraw = True
+87.9455 	EXP 	tree2_6: autoDraw = True
+87.9455 	EXP 	tree3_6: autoDraw = True
+87.9455 	EXP 	tree4_6: autoDraw = True
+87.9455 	EXP 	square_6: autoDraw = True
+88.4339 	EXP 	New trial (rep=0, index=2): OrderedDict([('tree1_n', -0.3), ('tree2_p', 0.1), ('tree3_n', 0.5), ('tree4_p', -0.6)])
+88.4790 	EXP 	tree1_6: autoDraw = False
+88.4790 	EXP 	tree2_6: autoDraw = False
+88.4790 	EXP 	tree3_6: autoDraw = False
+88.4790 	EXP 	tree4_6: autoDraw = False
+88.4790 	EXP 	square_6: autoDraw = False
+88.4790 	EXP 	tree1_6: pos = array([-0.5, -0.3])
+88.4790 	EXP 	tree2_6: pos = array([0.5, 0.1])
+88.4790 	EXP 	tree3_6: pos = array([-0.5,  0.5])
+88.4790 	EXP 	tree4_6: pos = array([ 0.5, -0.6])
+88.4790 	EXP 	tree1_6: autoDraw = True
+88.4790 	EXP 	tree2_6: autoDraw = True
+88.4790 	EXP 	tree3_6: autoDraw = True
+88.4790 	EXP 	tree4_6: autoDraw = True
+88.4790 	EXP 	square_6: autoDraw = True
+88.9253 	EXP 	New trial (rep=0, index=3): OrderedDict([('tree1_n', -0.35), ('tree2_p', 0.05), ('tree3_n', 0.45), ('tree4_p', -0.6)])
+88.9705 	EXP 	tree1_6: autoDraw = False
+88.9705 	EXP 	tree2_6: autoDraw = False
+88.9705 	EXP 	tree3_6: autoDraw = False
+88.9705 	EXP 	tree4_6: autoDraw = False
+88.9705 	EXP 	square_6: autoDraw = False
+88.9705 	EXP 	tree1_6: pos = array([-0.5 , -0.35])
+88.9705 	EXP 	tree2_6: pos = array([0.5 , 0.05])
+88.9705 	EXP 	tree3_6: pos = array([-0.5 ,  0.45])
+88.9705 	EXP 	tree4_6: pos = array([ 0.5, -0.6])
+88.9705 	EXP 	tree1_6: autoDraw = True
+88.9705 	EXP 	tree2_6: autoDraw = True
+88.9705 	EXP 	tree3_6: autoDraw = True
+88.9705 	EXP 	tree4_6: autoDraw = True
+88.9705 	EXP 	square_6: autoDraw = True
+89.4239 	EXP 	New trial (rep=0, index=4): OrderedDict([('tree1_n', -0.4), ('tree2_p', 0.0), ('tree3_n', 0.4), ('tree4_p', 0.6)])
+89.4663 	EXP 	tree1_6: autoDraw = False
+89.4663 	EXP 	tree2_6: autoDraw = False
+89.4663 	EXP 	tree3_6: autoDraw = False
+89.4663 	EXP 	tree4_6: autoDraw = False
+89.4663 	EXP 	square_6: autoDraw = False
+89.4663 	EXP 	tree1_6: pos = array([-0.5, -0.4])
+89.4663 	EXP 	tree2_6: pos = array([0.5, 0. ])
+89.4663 	EXP 	tree3_6: pos = array([-0.5,  0.4])
+89.4663 	EXP 	tree4_6: pos = array([0.5, 0.6])
+89.4663 	EXP 	tree1_6: autoDraw = True
+89.4663 	EXP 	tree2_6: autoDraw = True
+89.4663 	EXP 	tree3_6: autoDraw = True
+89.4663 	EXP 	tree4_6: autoDraw = True
+89.4663 	EXP 	square_6: autoDraw = True
+89.9186 	EXP 	New trial (rep=0, index=5): OrderedDict([('tree1_n', -0.45), ('tree2_p', -0.05), ('tree3_n', 0.35), ('tree4_p', 0.6)])
+89.9617 	EXP 	tree1_6: autoDraw = False
+89.9617 	EXP 	tree2_6: autoDraw = False
+89.9617 	EXP 	tree3_6: autoDraw = False
+89.9617 	EXP 	tree4_6: autoDraw = False
+89.9617 	EXP 	square_6: autoDraw = False
+89.9617 	EXP 	tree1_6: pos = array([-0.5 , -0.45])
+89.9617 	EXP 	tree2_6: pos = array([ 0.5 , -0.05])
+89.9617 	EXP 	tree3_6: pos = array([-0.5 ,  0.35])
+89.9617 	EXP 	tree4_6: pos = array([0.5, 0.6])
+89.9617 	EXP 	tree1_6: autoDraw = True
+89.9617 	EXP 	tree2_6: autoDraw = True
+89.9617 	EXP 	tree3_6: autoDraw = True
+89.9617 	EXP 	tree4_6: autoDraw = True
+89.9617 	EXP 	square_6: autoDraw = True
+90.4138 	EXP 	New trial (rep=0, index=6): OrderedDict([('tree1_n', -0.5), ('tree2_p', -0.1), ('tree3_n', 0.3), ('tree4_p', 0.6)])
+90.4589 	EXP 	tree1_6: autoDraw = False
+90.4589 	EXP 	tree2_6: autoDraw = False
+90.4589 	EXP 	tree3_6: autoDraw = False
+90.4589 	EXP 	tree4_6: autoDraw = False
+90.4589 	EXP 	square_6: autoDraw = False
+90.4589 	EXP 	tree1_6: pos = array([-0.5, -0.5])
+90.4589 	EXP 	tree2_6: pos = array([ 0.5, -0.1])
+90.4589 	EXP 	tree3_6: pos = array([-0.5,  0.3])
+90.4589 	EXP 	tree4_6: pos = array([0.5, 0.6])
+90.4589 	EXP 	tree1_6: autoDraw = True
+90.4589 	EXP 	tree2_6: autoDraw = True
+90.4589 	EXP 	tree3_6: autoDraw = True
+90.4589 	EXP 	tree4_6: autoDraw = True
+90.4589 	EXP 	square_6: autoDraw = True
+90.9171 	EXP 	New trial (rep=0, index=7): OrderedDict([('tree1_n', -0.55), ('tree2_p', -0.15), ('tree3_n', 0.25), ('tree4_p', 0.6)])
+90.9621 	EXP 	tree1_6: autoDraw = False
+90.9621 	EXP 	tree2_6: autoDraw = False
+90.9621 	EXP 	tree3_6: autoDraw = False
+90.9621 	EXP 	tree4_6: autoDraw = False
+90.9621 	EXP 	square_6: autoDraw = False
+90.9621 	EXP 	tree1_6: pos = array([-0.5 , -0.55])
+90.9621 	EXP 	tree2_6: pos = array([ 0.5 , -0.15])
+90.9621 	EXP 	tree3_6: pos = array([-0.5 ,  0.25])
+90.9621 	EXP 	tree4_6: pos = array([0.5, 0.6])
+90.9621 	EXP 	tree1_6: autoDraw = True
+90.9621 	EXP 	tree2_6: autoDraw = True
+90.9621 	EXP 	tree3_6: autoDraw = True
+90.9621 	EXP 	tree4_6: autoDraw = True
+90.9621 	EXP 	square_6: autoDraw = True
+91.4107 	EXP 	New trial (rep=0, index=8): OrderedDict([('tree1_n', -0.6), ('tree2_p', -0.2), ('tree3_n', 0.2), ('tree4_p', 0.6)])
+91.4556 	EXP 	tree1_6: autoDraw = False
+91.4556 	EXP 	tree2_6: autoDraw = False
+91.4556 	EXP 	tree3_6: autoDraw = False
+91.4556 	EXP 	tree4_6: autoDraw = False
+91.4556 	EXP 	square_6: autoDraw = False
+91.4556 	EXP 	tree1_6: pos = array([-0.5, -0.6])
+91.4556 	EXP 	tree2_6: pos = array([ 0.5, -0.2])
+91.4556 	EXP 	tree3_6: pos = array([-0.5,  0.2])
+91.4556 	EXP 	tree4_6: pos = array([0.5, 0.6])
+91.4556 	EXP 	tree1_6: autoDraw = True
+91.4556 	EXP 	tree2_6: autoDraw = True
+91.4556 	EXP 	tree3_6: autoDraw = True
+91.4556 	EXP 	tree4_6: autoDraw = True
+91.4556 	EXP 	square_6: autoDraw = True
+91.9126 	EXP 	Created sequence: random, trialTypes=1, nReps=3, seed=None
+91.9133 	EXP 	New trial (rep=0, index=0): None
+91.9417 	EXP 	Imported reward.xlsx as conditions, 11 conditions, 5 params
+91.9421 	EXP 	Created sequence: sequential, trialTypes=11, nReps=1, seed=None
+91.9426 	EXP 	New trial (rep=0, index=0): OrderedDict([('rewardval1', 7.5), ('rewardval2', 7.3), ('rewardval3', 7.6), ('rewardval4', 7.1), ('rewardval5', 7.4)])
+91.9869 	EXP 	tree1_6: autoDraw = False
+91.9869 	EXP 	tree2_6: autoDraw = False
+91.9869 	EXP 	tree3_6: autoDraw = False
+91.9869 	EXP 	tree4_6: autoDraw = False
+91.9869 	EXP 	square_6: autoDraw = False
+91.9869 	EXP 	tree1_13: pos = array([-0.5, -0.6])
+91.9869 	EXP 	tree2_13: pos = array([ 0.5, -0.2])
+91.9869 	EXP 	tree3_13: pos = array([-0.5,  0.2])
+91.9869 	EXP 	tree4_13: pos = array([0.5, 0.6])
+91.9869 	EXP 	wait: text = 'wait'
+91.9869 	EXP 	tree1_13: autoDraw = True
+91.9869 	EXP 	tree2_13: autoDraw = True
+91.9869 	EXP 	tree3_13: autoDraw = True
+91.9869 	EXP 	tree4_13: autoDraw = True
+91.9869 	EXP 	square_13: autoDraw = True
+91.9869 	EXP 	wait: autoDraw = True
+91.9869 	EXP 	forward_3: autoDraw = True
+92.9846 	EXP 	tree1_13: autoDraw = False
+92.9846 	EXP 	tree2_13: autoDraw = False
+92.9846 	EXP 	tree3_13: autoDraw = False
+92.9846 	EXP 	tree4_13: autoDraw = False
+92.9846 	EXP 	square_13: autoDraw = False
+92.9846 	EXP 	wait: autoDraw = False
+92.9846 	EXP 	forward_3: autoDraw = False
+92.9846 	EXP 	tree1_5: pos = array([-0.5, -0.6])
+92.9846 	EXP 	tree2_5: pos = array([ 0.5, -0.2])
+92.9846 	EXP 	tree3_5: pos = array([-0.5,  0.2])
+92.9846 	EXP 	tree4_5: pos = array([0.5, 0.6])
+92.9846 	EXP 	reward_3: text = 7.3
+92.9846 	EXP 	tree1_5: autoDraw = True
+92.9846 	EXP 	tree2_5: autoDraw = True
+92.9846 	EXP 	tree3_5: autoDraw = True
+92.9846 	EXP 	tree4_5: autoDraw = True
+92.9846 	EXP 	square_5: autoDraw = True
+92.9846 	EXP 	reward_3: autoDraw = True
+92.9846 	EXP 	forward_7: autoDraw = True
+107.2924 	DATA 	Mouse: Left button down, pos=(1522,354)
+107.3664 	EXP 	New trial (rep=0, index=1): OrderedDict([('rewardval1', 7.1), ('rewardval2', 6.9), ('rewardval3', 7.1), ('rewardval4', 6.6), ('rewardval5', 6.8)])
+107.4081 	EXP 	tree1_5: autoDraw = False
+107.4081 	EXP 	tree2_5: autoDraw = False
+107.4081 	EXP 	tree3_5: autoDraw = False
+107.4081 	EXP 	tree4_5: autoDraw = False
+107.4081 	EXP 	square_5: autoDraw = False
+107.4081 	EXP 	reward_3: autoDraw = False
+107.4081 	EXP 	forward_7: autoDraw = False
+107.4081 	EXP 	tree1_13: pos = array([-0.5, -0.6])
+107.4081 	EXP 	tree2_13: pos = array([ 0.5, -0.2])
+107.4081 	EXP 	tree3_13: pos = array([-0.5,  0.2])
+107.4081 	EXP 	tree4_13: pos = array([0.5, 0.6])
+107.4081 	EXP 	wait: text = 'wait'
+107.4081 	EXP 	tree1_13: autoDraw = True
+107.4081 	EXP 	tree2_13: autoDraw = True
+107.4081 	EXP 	tree3_13: autoDraw = True
+107.4081 	EXP 	tree4_13: autoDraw = True
+107.4081 	EXP 	square_13: autoDraw = True
+107.4081 	EXP 	wait: autoDraw = True
+107.4081 	EXP 	forward_3: autoDraw = True
+107.4822 	DATA 	Mouse:  Left button up, pos=(1522,354)
+108.4457 	EXP 	tree1_13: autoDraw = False
+108.4457 	EXP 	tree2_13: autoDraw = False
+108.4457 	EXP 	tree3_13: autoDraw = False
+108.4457 	EXP 	tree4_13: autoDraw = False
+108.4457 	EXP 	square_13: autoDraw = False
+108.4457 	EXP 	wait: autoDraw = False
+108.4457 	EXP 	forward_3: autoDraw = False
+108.4457 	EXP 	tree1_5: pos = array([-0.5, -0.6])
+108.4457 	EXP 	tree2_5: pos = array([ 0.5, -0.2])
+108.4457 	EXP 	tree3_5: pos = array([-0.5,  0.2])
+108.4457 	EXP 	tree4_5: pos = array([0.5, 0.6])
+108.4457 	EXP 	reward_3: text = 6.9
+108.4457 	EXP 	tree1_5: autoDraw = True
+108.4457 	EXP 	tree2_5: autoDraw = True
+108.4457 	EXP 	tree3_5: autoDraw = True
+108.4457 	EXP 	tree4_5: autoDraw = True
+108.4457 	EXP 	square_5: autoDraw = True
+108.4457 	EXP 	reward_3: autoDraw = True
+108.4457 	EXP 	forward_7: autoDraw = True
+110.6207 	DATA 	Mouse: Left button down, pos=(1483,332)
+110.6946 	EXP 	New trial (rep=0, index=2): OrderedDict([('rewardval1', 6.2), ('rewardval2', 6.2), ('rewardval3', 6.8), ('rewardval4', 6.1), ('rewardval5', 6.1)])
+110.7360 	EXP 	tree1_5: autoDraw = False
+110.7360 	EXP 	tree2_5: autoDraw = False
+110.7360 	EXP 	tree3_5: autoDraw = False
+110.7360 	EXP 	tree4_5: autoDraw = False
+110.7360 	EXP 	square_5: autoDraw = False
+110.7360 	EXP 	reward_3: autoDraw = False
+110.7360 	EXP 	forward_7: autoDraw = False
+110.7360 	EXP 	tree1_13: pos = array([-0.5, -0.6])
+110.7360 	EXP 	tree2_13: pos = array([ 0.5, -0.2])
+110.7360 	EXP 	tree3_13: pos = array([-0.5,  0.2])
+110.7360 	EXP 	tree4_13: pos = array([0.5, 0.6])
+110.7360 	EXP 	wait: text = 'wait'
+110.7360 	EXP 	tree1_13: autoDraw = True
+110.7360 	EXP 	tree2_13: autoDraw = True
+110.7360 	EXP 	tree3_13: autoDraw = True
+110.7360 	EXP 	tree4_13: autoDraw = True
+110.7360 	EXP 	square_13: autoDraw = True
+110.7360 	EXP 	wait: autoDraw = True
+110.7360 	EXP 	forward_3: autoDraw = True
+110.8086 	DATA 	Mouse:  Left button up, pos=(1483,332)
+111.7644 	EXP 	tree1_13: autoDraw = False
+111.7644 	EXP 	tree2_13: autoDraw = False
+111.7644 	EXP 	tree3_13: autoDraw = False
+111.7644 	EXP 	tree4_13: autoDraw = False
+111.7644 	EXP 	square_13: autoDraw = False
+111.7644 	EXP 	wait: autoDraw = False
+111.7644 	EXP 	forward_3: autoDraw = False
+111.7644 	EXP 	tree1_5: pos = array([-0.5, -0.6])
+111.7644 	EXP 	tree2_5: pos = array([ 0.5, -0.2])
+111.7644 	EXP 	tree3_5: pos = array([-0.5,  0.2])
+111.7644 	EXP 	tree4_5: pos = array([0.5, 0.6])
+111.7644 	EXP 	reward_3: text = 6.2
+111.7644 	EXP 	tree1_5: autoDraw = True
+111.7644 	EXP 	tree2_5: autoDraw = True
+111.7644 	EXP 	tree3_5: autoDraw = True
+111.7644 	EXP 	tree4_5: autoDraw = True
+111.7644 	EXP 	square_5: autoDraw = True
+111.7644 	EXP 	reward_3: autoDraw = True
+111.7644 	EXP 	forward_7: autoDraw = True
+120.0097 	DATA 	Mouse: Left button down, pos=(1493,324)
+120.0827 	EXP 	New trial (rep=0, index=3): OrderedDict([('rewardval1', 5.9), ('rewardval2', 5.8), ('rewardval3', 6.3), ('rewardval4', 5.8), ('rewardval5', 5.8)])
+120.1241 	EXP 	tree1_5: autoDraw = False
+120.1241 	EXP 	tree2_5: autoDraw = False
+120.1241 	EXP 	tree3_5: autoDraw = False
+120.1241 	EXP 	tree4_5: autoDraw = False
+120.1241 	EXP 	square_5: autoDraw = False
+120.1241 	EXP 	reward_3: autoDraw = False
+120.1241 	EXP 	forward_7: autoDraw = False
+120.1241 	EXP 	tree1_13: pos = array([-0.5, -0.6])
+120.1241 	EXP 	tree2_13: pos = array([ 0.5, -0.2])
+120.1241 	EXP 	tree3_13: pos = array([-0.5,  0.2])
+120.1241 	EXP 	tree4_13: pos = array([0.5, 0.6])
+120.1241 	EXP 	wait: text = 'wait'
+120.1241 	EXP 	tree1_13: autoDraw = True
+120.1241 	EXP 	tree2_13: autoDraw = True
+120.1241 	EXP 	tree3_13: autoDraw = True
+120.1241 	EXP 	tree4_13: autoDraw = True
+120.1241 	EXP 	square_13: autoDraw = True
+120.1241 	EXP 	wait: autoDraw = True
+120.1241 	EXP 	forward_3: autoDraw = True
+120.1571 	DATA 	Mouse:  Left button up, pos=(1493,324)
+121.1509 	EXP 	tree1_13: autoDraw = False
+121.1509 	EXP 	tree2_13: autoDraw = False
+121.1509 	EXP 	tree3_13: autoDraw = False
+121.1509 	EXP 	tree4_13: autoDraw = False
+121.1509 	EXP 	square_13: autoDraw = False
+121.1509 	EXP 	wait: autoDraw = False
+121.1509 	EXP 	forward_3: autoDraw = False
+121.1509 	EXP 	tree1_5: pos = array([-0.5, -0.6])
+121.1509 	EXP 	tree2_5: pos = array([ 0.5, -0.2])
+121.1509 	EXP 	tree3_5: pos = array([-0.5,  0.2])
+121.1509 	EXP 	tree4_5: pos = array([0.5, 0.6])
+121.1509 	EXP 	reward_3: text = 5.8
+121.1509 	EXP 	tree1_5: autoDraw = True
+121.1509 	EXP 	tree2_5: autoDraw = True
+121.1509 	EXP 	tree3_5: autoDraw = True
+121.1509 	EXP 	tree4_5: autoDraw = True
+121.1509 	EXP 	square_5: autoDraw = True
+121.1509 	EXP 	reward_3: autoDraw = True
+121.1509 	EXP 	forward_7: autoDraw = True
+123.3890 	DATA 	Mouse: Left button down, pos=(1496,355)
+123.4608 	DATA 	Mouse:  Left button up, pos=(1496,355)
+123.4619 	EXP 	New trial (rep=0, index=4): OrderedDict([('rewardval1', 5.1), ('rewardval2', 5.1), ('rewardval3', 5.9), ('rewardval4', 5.3), ('rewardval5', 5.1)])
+123.5059 	EXP 	tree1_5: autoDraw = False
+123.5059 	EXP 	tree2_5: autoDraw = False
+123.5059 	EXP 	tree3_5: autoDraw = False
+123.5059 	EXP 	tree4_5: autoDraw = False
+123.5059 	EXP 	square_5: autoDraw = False
+123.5059 	EXP 	reward_3: autoDraw = False
+123.5059 	EXP 	forward_7: autoDraw = False
+123.5059 	EXP 	tree1_13: pos = array([-0.5, -0.6])
+123.5059 	EXP 	tree2_13: pos = array([ 0.5, -0.2])
+123.5059 	EXP 	tree3_13: pos = array([-0.5,  0.2])
+123.5059 	EXP 	tree4_13: pos = array([0.5, 0.6])
+123.5059 	EXP 	wait: text = 'wait'
+123.5059 	EXP 	tree1_13: autoDraw = True
+123.5059 	EXP 	tree2_13: autoDraw = True
+123.5059 	EXP 	tree3_13: autoDraw = True
+123.5059 	EXP 	tree4_13: autoDraw = True
+123.5059 	EXP 	square_13: autoDraw = True
+123.5059 	EXP 	wait: autoDraw = True
+123.5059 	EXP 	forward_3: autoDraw = True
+124.5392 	EXP 	tree1_13: autoDraw = False
+124.5392 	EXP 	tree2_13: autoDraw = False
+124.5392 	EXP 	tree3_13: autoDraw = False
+124.5392 	EXP 	tree4_13: autoDraw = False
+124.5392 	EXP 	square_13: autoDraw = False
+124.5392 	EXP 	wait: autoDraw = False
+124.5392 	EXP 	forward_3: autoDraw = False
+124.5392 	EXP 	tree1_5: pos = array([-0.5, -0.6])
+124.5392 	EXP 	tree2_5: pos = array([ 0.5, -0.2])
+124.5392 	EXP 	tree3_5: pos = array([-0.5,  0.2])
+124.5392 	EXP 	tree4_5: pos = array([0.5, 0.6])
+124.5392 	EXP 	reward_3: text = 5.1
+124.5392 	EXP 	tree1_5: autoDraw = True
+124.5392 	EXP 	tree2_5: autoDraw = True
+124.5392 	EXP 	tree3_5: autoDraw = True
+124.5392 	EXP 	tree4_5: autoDraw = True
+124.5392 	EXP 	square_5: autoDraw = True
+124.5392 	EXP 	reward_3: autoDraw = True
+124.5392 	EXP 	forward_7: autoDraw = True
+126.7100 	DATA 	Keypress: space
+126.7931 	EXP 	Imported pos.xlsx as conditions, 9 conditions, 4 params
+126.7934 	EXP 	Created sequence: sequential, trialTypes=9, nReps=1, seed=None
+126.7937 	EXP 	New trial (rep=0, index=0): OrderedDict([('tree1_n', -0.2), ('tree2_p', 0.2), ('tree3_n', 0.6), ('tree4_p', -0.6)])
+126.8370 	EXP 	tree1_5: autoDraw = False
+126.8370 	EXP 	tree2_5: autoDraw = False
+126.8370 	EXP 	tree3_5: autoDraw = False
+126.8370 	EXP 	tree4_5: autoDraw = False
+126.8370 	EXP 	square_5: autoDraw = False
+126.8370 	EXP 	reward_3: autoDraw = False
+126.8370 	EXP 	forward_7: autoDraw = False
+126.8370 	EXP 	tree1_8: pos = array([-0.5, -0.6])
+126.8370 	EXP 	tree2_8: pos = array([0.5, 0.6])
+126.8370 	EXP 	tree3_8: pos = array([-0.5,  0.2])
+126.8370 	EXP 	tree4_8: pos = array([ 0.5, -0.2])
+126.8370 	EXP 	tree1_8: autoDraw = True
+126.8370 	EXP 	tree2_8: autoDraw = True
+126.8370 	EXP 	tree3_8: autoDraw = True
+126.8370 	EXP 	tree4_8: autoDraw = True
+126.8370 	EXP 	square_8: autoDraw = True
+127.2873 	EXP 	New trial (rep=0, index=1): OrderedDict([('tree1_n', -0.25), ('tree2_p', 0.15), ('tree3_n', 0.55), ('tree4_p', -0.6)])
+127.3309 	EXP 	tree1_8: autoDraw = False
+127.3309 	EXP 	tree2_8: autoDraw = False
+127.3309 	EXP 	tree3_8: autoDraw = False
+127.3309 	EXP 	tree4_8: autoDraw = False
+127.3309 	EXP 	square_8: autoDraw = False
+127.3309 	EXP 	tree1_8: pos = array([-0.5, -0.6])
+127.3309 	EXP 	tree2_8: pos = array([0.5 , 0.55])
+127.3309 	EXP 	tree3_8: pos = array([-0.5 ,  0.15])
+127.3309 	EXP 	tree4_8: pos = array([ 0.5 , -0.25])
+127.3309 	EXP 	tree1_8: autoDraw = True
+127.3309 	EXP 	tree2_8: autoDraw = True
+127.3309 	EXP 	tree3_8: autoDraw = True
+127.3309 	EXP 	tree4_8: autoDraw = True
+127.3309 	EXP 	square_8: autoDraw = True
+127.8239 	EXP 	New trial (rep=0, index=2): OrderedDict([('tree1_n', -0.3), ('tree2_p', 0.1), ('tree3_n', 0.5), ('tree4_p', -0.6)])
+127.8644 	EXP 	tree1_8: autoDraw = False
+127.8644 	EXP 	tree2_8: autoDraw = False
+127.8644 	EXP 	tree3_8: autoDraw = False
+127.8644 	EXP 	tree4_8: autoDraw = False
+127.8644 	EXP 	square_8: autoDraw = False
+127.8644 	EXP 	tree1_8: pos = array([-0.5, -0.6])
+127.8644 	EXP 	tree2_8: pos = array([0.5, 0.5])
+127.8644 	EXP 	tree3_8: pos = array([-0.5,  0.1])
+127.8644 	EXP 	tree4_8: pos = array([ 0.5, -0.3])
+127.8644 	EXP 	tree1_8: autoDraw = True
+127.8644 	EXP 	tree2_8: autoDraw = True
+127.8644 	EXP 	tree3_8: autoDraw = True
+127.8644 	EXP 	tree4_8: autoDraw = True
+127.8644 	EXP 	square_8: autoDraw = True
+128.3167 	EXP 	New trial (rep=0, index=3): OrderedDict([('tree1_n', -0.35), ('tree2_p', 0.05), ('tree3_n', 0.45), ('tree4_p', -0.6)])
+128.3588 	EXP 	tree1_8: autoDraw = False
+128.3588 	EXP 	tree2_8: autoDraw = False
+128.3588 	EXP 	tree3_8: autoDraw = False
+128.3588 	EXP 	tree4_8: autoDraw = False
+128.3588 	EXP 	square_8: autoDraw = False
+128.3588 	EXP 	tree1_8: pos = array([-0.5, -0.6])
+128.3588 	EXP 	tree2_8: pos = array([0.5 , 0.45])
+128.3588 	EXP 	tree3_8: pos = array([-0.5 ,  0.05])
+128.3588 	EXP 	tree4_8: pos = array([ 0.5 , -0.35])
+128.3588 	EXP 	tree1_8: autoDraw = True
+128.3588 	EXP 	tree2_8: autoDraw = True
+128.3588 	EXP 	tree3_8: autoDraw = True
+128.3588 	EXP 	tree4_8: autoDraw = True
+128.3588 	EXP 	square_8: autoDraw = True
+128.8076 	EXP 	New trial (rep=0, index=4): OrderedDict([('tree1_n', -0.4), ('tree2_p', 0.0), ('tree3_n', 0.4), ('tree4_p', 0.6)])
+128.8506 	EXP 	tree1_8: autoDraw = False
+128.8506 	EXP 	tree2_8: autoDraw = False
+128.8506 	EXP 	tree3_8: autoDraw = False
+128.8506 	EXP 	tree4_8: autoDraw = False
+128.8506 	EXP 	square_8: autoDraw = False
+128.8506 	EXP 	tree1_8: pos = array([-0.5,  0.6])
+128.8506 	EXP 	tree2_8: pos = array([0.5, 0.4])
+128.8506 	EXP 	tree3_8: pos = array([-0.5,  0. ])
+128.8506 	EXP 	tree4_8: pos = array([ 0.5, -0.4])
+128.8506 	EXP 	tree1_8: autoDraw = True
+128.8506 	EXP 	tree2_8: autoDraw = True
+128.8506 	EXP 	tree3_8: autoDraw = True
+128.8506 	EXP 	tree4_8: autoDraw = True
+128.8506 	EXP 	square_8: autoDraw = True
+129.3039 	EXP 	New trial (rep=0, index=5): OrderedDict([('tree1_n', -0.45), ('tree2_p', -0.05), ('tree3_n', 0.35), ('tree4_p', 0.6)])
+129.3469 	EXP 	tree1_8: autoDraw = False
+129.3469 	EXP 	tree2_8: autoDraw = False
+129.3469 	EXP 	tree3_8: autoDraw = False
+129.3469 	EXP 	tree4_8: autoDraw = False
+129.3469 	EXP 	square_8: autoDraw = False
+129.3469 	EXP 	tree1_8: pos = array([-0.5,  0.6])
+129.3469 	EXP 	tree2_8: pos = array([0.5 , 0.35])
+129.3469 	EXP 	tree3_8: pos = array([-0.5 , -0.05])
+129.3469 	EXP 	tree4_8: pos = array([ 0.5 , -0.45])
+129.3469 	EXP 	tree1_8: autoDraw = True
+129.3469 	EXP 	tree2_8: autoDraw = True
+129.3469 	EXP 	tree3_8: autoDraw = True
+129.3469 	EXP 	tree4_8: autoDraw = True
+129.3469 	EXP 	square_8: autoDraw = True
+129.7983 	EXP 	New trial (rep=0, index=6): OrderedDict([('tree1_n', -0.5), ('tree2_p', -0.1), ('tree3_n', 0.3), ('tree4_p', 0.6)])
+129.8400 	EXP 	tree1_8: autoDraw = False
+129.8400 	EXP 	tree2_8: autoDraw = False
+129.8400 	EXP 	tree3_8: autoDraw = False
+129.8400 	EXP 	tree4_8: autoDraw = False
+129.8400 	EXP 	square_8: autoDraw = False
+129.8400 	EXP 	tree1_8: pos = array([-0.5,  0.6])
+129.8400 	EXP 	tree2_8: pos = array([0.5, 0.3])
+129.8400 	EXP 	tree3_8: pos = array([-0.5, -0.1])
+129.8400 	EXP 	tree4_8: pos = array([ 0.5, -0.5])
+129.8400 	EXP 	tree1_8: autoDraw = True
+129.8400 	EXP 	tree2_8: autoDraw = True
+129.8400 	EXP 	tree3_8: autoDraw = True
+129.8400 	EXP 	tree4_8: autoDraw = True
+129.8400 	EXP 	square_8: autoDraw = True
+130.2872 	EXP 	New trial (rep=0, index=7): OrderedDict([('tree1_n', -0.55), ('tree2_p', -0.15), ('tree3_n', 0.25), ('tree4_p', 0.6)])
+130.3295 	EXP 	tree1_8: autoDraw = False
+130.3295 	EXP 	tree2_8: autoDraw = False
+130.3295 	EXP 	tree3_8: autoDraw = False
+130.3295 	EXP 	tree4_8: autoDraw = False
+130.3295 	EXP 	square_8: autoDraw = False
+130.3295 	EXP 	tree1_8: pos = array([-0.5,  0.6])
+130.3295 	EXP 	tree2_8: pos = array([0.5 , 0.25])
+130.3295 	EXP 	tree3_8: pos = array([-0.5 , -0.15])
+130.3295 	EXP 	tree4_8: pos = array([ 0.5 , -0.55])
+130.3295 	EXP 	tree1_8: autoDraw = True
+130.3295 	EXP 	tree2_8: autoDraw = True
+130.3295 	EXP 	tree3_8: autoDraw = True
+130.3295 	EXP 	tree4_8: autoDraw = True
+130.3295 	EXP 	square_8: autoDraw = True
+130.8226 	EXP 	New trial (rep=0, index=8): OrderedDict([('tree1_n', -0.6), ('tree2_p', -0.2), ('tree3_n', 0.2), ('tree4_p', 0.6)])
+130.8657 	EXP 	tree1_8: autoDraw = False
+130.8657 	EXP 	tree2_8: autoDraw = False
+130.8657 	EXP 	tree3_8: autoDraw = False
+130.8657 	EXP 	tree4_8: autoDraw = False
+130.8657 	EXP 	square_8: autoDraw = False
+130.8657 	EXP 	tree1_8: pos = array([-0.5,  0.6])
+130.8657 	EXP 	tree2_8: pos = array([0.5, 0.2])
+130.8657 	EXP 	tree3_8: pos = array([-0.5, -0.2])
+130.8657 	EXP 	tree4_8: pos = array([ 0.5, -0.6])
+130.8657 	EXP 	tree1_8: autoDraw = True
+130.8657 	EXP 	tree2_8: autoDraw = True
+130.8657 	EXP 	tree3_8: autoDraw = True
+130.8657 	EXP 	tree4_8: autoDraw = True
+130.8657 	EXP 	square_8: autoDraw = True
+131.3281 	EXP 	Imported reward.xlsx as conditions, 13 conditions, 5 params
+131.3285 	EXP 	Created sequence: sequential, trialTypes=13, nReps=1, seed=None
+131.3290 	EXP 	New trial (rep=0, index=0): OrderedDict([('rewardval1', 7.5), ('rewardval2', 7.3), ('rewardval3', 7.6), ('rewardval4', 7.1), ('rewardval5', 7.4)])
+131.3749 	EXP 	tree1_8: autoDraw = False
+131.3749 	EXP 	tree2_8: autoDraw = False
+131.3749 	EXP 	tree3_8: autoDraw = False
+131.3749 	EXP 	tree4_8: autoDraw = False
+131.3749 	EXP 	square_8: autoDraw = False
+131.3749 	EXP 	tree1_15: pos = array([-0.5,  0.6])
+131.3749 	EXP 	tree2_15: pos = array([0.5, 0.2])
+131.3749 	EXP 	tree3_15: pos = array([-0.5, -0.2])
+131.3749 	EXP 	tree4_15: pos = array([ 0.5, -0.6])
+131.3749 	EXP 	wait_4: text = 'wait'
+131.3749 	EXP 	tree1_15: autoDraw = True
+131.3749 	EXP 	tree2_15: autoDraw = True
+131.3749 	EXP 	tree3_15: autoDraw = True
+131.3749 	EXP 	tree4_15: autoDraw = True
+131.3749 	EXP 	square_15: autoDraw = True
+131.3749 	EXP 	wait_4: autoDraw = True
+131.3749 	EXP 	forward_4: autoDraw = True
+131.4072 	DATA 	Keypress: escape
+131.5899 	EXP 	window1: mouseVisible = True
