@@ -22,9 +22,27 @@ The participants would then be asked to participate in the foraging game. Partic
 2. Designing a naturalistic foraging task and testing the participants.
 The idea for designing the foraging task is to build a virtual patch foraging game where the participants would be asked to maximize their reward by foraging in a time-bound setting. We would build this game on PsychoPy. Overstaying at the same patch during foraging would result in getting a lesser reward each time as the reward from the patch gets exhausted. Similarly, while moving to a new patch very often i.e., over-exploration leads to greater travel costs resulting in lesser time to forage and hence, lesser reward. There will be no reward in between patches, i.e., while traveling. The decision to forage at the same patch or move to a new one must be optimized in order to maximize the reward.
 
+#### Survey
+The survey consists of a self-assessment questionnaire designed from the various standard questionnaires. The sections were the following:
+Section 1: General information
+Section 2: PHQ-9
+Section 3: GAD-7
+Section 4: STAI Part 1
+Section 5: STAI Part 2
+Section 6: COVID related questions
+
 #### Analysis: 
-The data collected would be analyzed using suitable mathematical models such as the Marginal Value theorem and Reinforcement Learning algorithms such as Q-learning and TD-learning. Normative models would be used to understand decision optimality, and a comparative analysis would be done between the participants’ strategies and the optimal strategy. 
+1. Calculation of optimal leaving time from a patch using Marginal Value Theorem
+2. T-test for average leaving times for all the participants in the rich and poor environments
 
 #### Expected result:
 The participants would show suboptimal foraging behavior in highly stressed conditions. They would either leave the patch early or overexploit, resulting in lesser rewards than expected. 
 Overexploitation can be associated with trait anxiety, while early leaving of the patch could be associated with state anxiety. Participants making more exploratory decisions can be associated with depressed individuals as they tend to be more risk-seeking.
+
+#### Future work:
+Further, we plan on working on the following aspects to complete the study:
+1. Analyze the survey responses to assess stress levels in the individuals
+2. Analyze the game data further using Reinforcement learning techniques such as Q-learning and TD-learning
+3. Rectify the errors in the game design in order to design a fully functional game 
+4. Couple the final game with EEG and pupillometry for future research
+
